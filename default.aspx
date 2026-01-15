@@ -71,6 +71,8 @@
 
     <!-- Custom CSS -->
     <link href="custom/custom.css" rel="stylesheet" type="text/css" />
+    <!-- Login page specific CSS -->
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
 
 
 
@@ -91,7 +93,7 @@
     </style>
 </head>
 <%-- backbg--%>
-<body runat="server" id="pages" class="full-layout no-nav-left no-nav-right nav-top-fixed background-login responsive remove-navbar login-layout clearfix" data-active="pages" data-smooth-scrolling="1">
+<body runat="server" id="pages" class="full-layout no-nav-left no-nav-right nav-top-fixed background-login responsive remove-navbar login-layout clearfix modern-login-page" data-active="pages" data-smooth-scrolling="1">
 
     <form id="form1" runat="server">
 
@@ -154,7 +156,7 @@
 
                 </script>
 
-                <div class="vd_login-page">
+                <div class="vd_login-page modern-login-card">
                     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                         <Triggers>
                             <asp:AsyncPostBackTrigger ControlID="LinkButton1" EventName="Click" />
