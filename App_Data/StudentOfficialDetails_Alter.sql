@@ -1,1 +1,0 @@
-Alter Table StudentOfficialDetails Alter Column InstituteRollNo bigint
