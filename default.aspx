@@ -188,13 +188,13 @@
                         </ContentTemplate>
                     </asp:UpdatePanel>
 
-                    <div class="panel widget">
+                    <div class="card widget">
                         <div class="" runat="server" id="Expbody" visible="false" style="border-radius: 10px;">
                             <div class="form-group  mgbt-xs-20">
                                 <div class="alert alert-danger text-center" id="alert" runat="server" style="font-size:15px; padding:4px;"></div>
                             </div>
                         </div>
-                        <div class="panel-body" runat="server"  style="border-radius: 10px;">
+                        <div class="card-body" runat="server"  style="border-radius: 10px;">
                             <asp:HiddenField runat="server" ID="hdnSubscription" />
                             <div class="login-img entypo-icon">
                                 <div class="main-logo-center">
@@ -249,14 +249,14 @@
                                 <div class="col-md-12">
                                     <div class="row">
                                         <div class="">
-                                            <div class="col-xs-6 no-mgpd">
-                                                <div class="vd_checkbox pull-left mgtp-5">
+                                            <div class="col-6 no-mgpd">
+                                                <div class="vd_checkbox float-start mgtp-5">
                                                     <asp:CheckBox ID="chkRememberMe" runat="server" />
 
                                                     <label for="chkRememberMe" style="left: 8px !important">Remember me</label>
                                                 </div>
                                             </div>
-                                            <div class="col-xs-6 no-mgpd">
+                                            <div class="col-6 no-mgpd">
                                                 <asp:UpdatePanel ID="UpdatePanel3" runat="server">
                                                     <ContentTemplate>
                                                         <asp:LinkButton ID="LinkButton1" runat="server" OnClientClick="return ValidateTextBox('.validatetxt');"

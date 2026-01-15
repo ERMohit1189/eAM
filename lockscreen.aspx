@@ -42,15 +42,15 @@
                             </div>
                         </ContentTemplate>
                     </asp:UpdatePanel>
-                    <div class="panel widget">
-                        <div class="panel-body" style="border-radius: 10px;">
+                    <div class="card widget">
+                        <div class="card-body" style="border-radius: 10px;">
                             <div class="login-img entypo-icon">
                                 <div class="main-logo-center">
                                     <img src="img/logo.png" alt="eAM logo" />
                                 </div>
                             </div>
                             <div class="login-icon no-bd">
-                                <asp:Image ID="imgUser" class="img-circle" runat="server" Style="width: 120px; height: 105px; margin-top: -24px;" alt="avatar" />
+                                <asp:Image ID="imgUser" class="rounded-circle img-fluid" runat="server" Style="width: 120px; height: 105px; margin-top: -24px;" alt="avatar" />
                             </div>
 
 

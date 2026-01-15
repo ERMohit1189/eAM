@@ -188,8 +188,8 @@
                         </ContentTemplate>
                     </asp:UpdatePanel>
 
-                    <div class="panel widget">
-                        <div class="panel-body" style="border-radius: 10px;">
+                    <div class="card widget">
+                        <div class="card-body" style="border-radius: 10px;">
                             <div class="login-img entypo-icon">
                                 <div class="main-logo-center">
                                     <img src="../img/logo.png" alt="eAM logo" />
@@ -202,7 +202,7 @@
                                             <label class="control-label" for="email">Email</label>
                                         </div>
                                         <div class="vd_input-wrapper vd_input-margin">
-                                            <span class="menu-icon"><i class="fa fa-user"></i></span>
+                                            <span class="menu-icon"><i class="fa fa-user" aria-hidden="true"></i></span>
                                             <asp:TextBox ID="txtUserName" placeholder="Mobile No." runat="server" MaxLength="10" onBlur="ChecktenDigitMobileNumber(this);"
                                                 onFocus="this.select();" CssClass="form-control-blue validatetxt"></asp:TextBox>
                                         </div>
@@ -231,8 +231,8 @@
                                     <div class="col-md-12">
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <div class="col-xs-6 no-mgpd hide">
-                                                    <div class="vd_checkbox pull-left mgtp-5">
+                                                <div class="col-6 no-mgpd hide">
+                                                    <div class="vd_checkbox float-start mgtp-5">
                                                         <asp:CheckBox ID="chkRememberMe" runat="server" />
 
                                                         <label for="chkRememberMe" style="left: -5px !important">Remember me</label>
@@ -266,7 +266,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12 text-center mgbt-xs-5 hide">
-                                        <div class="forget-link pull-left">
+                                        <div class="forget-link float-start">
                                             <a class="postlink-color hower_underline" style="color: #23709e !important;" href="forgot-password.aspx">Forgot Password? </a>
 
                                         </div>
