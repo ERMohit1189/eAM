@@ -73,6 +73,8 @@
     <link href="custom/custom.css" rel="stylesheet" type="text/css" />
     <!-- Login page specific CSS -->
     <link href="css/login.css" rel="stylesheet" type="text/css" />
+    <!-- Default page specific CSS -->
+    <link href="css/default.css" rel="stylesheet" type="text/css" />
 
 
 
@@ -188,14 +190,20 @@
                         </ContentTemplate>
                     </asp:UpdatePanel>
 
-                    <div class="card widget">
+                    <div class="card widget default-card">
                         <div class="" runat="server" id="Expbody" visible="false" style="border-radius: 10px;">
                             <div class="form-group  mgbt-xs-20">
                                 <div class="alert alert-danger text-center" id="alert" runat="server" style="font-size:15px; padding:4px;"></div>
                             </div>
                         </div>
-                        <div class="card-body" runat="server"  style="border-radius: 10px;">
+                        <div class="card-body p-4" runat="server" style="border-radius: 14px;">
                             <asp:HiddenField runat="server" ID="hdnSubscription" />
+                            <div class="scene d-none d-md-block">
+                                <div class="balloon balloon-1" aria-hidden="true"></div>
+                                <div class="balloon balloon-2" aria-hidden="true"></div>
+                                <div class="balloon balloon-3" aria-hidden="true"></div>
+                                <div class="balloon balloon-4" aria-hidden="true"></div>
+                            </div>
                             <div class="login-img entypo-icon">
                                 <div class="main-logo-center">
                                     <img src="img/logo.png" alt="eAM logo" />
@@ -207,21 +215,21 @@
                                     <div class="sr-only">
                                         <label class="control-label" for="email">Email</label>
                                     </div>
-                                    <div class="vd_input-wrapper vd_input-margin">
-                                        <span class="menu-icon"><i class="fa fa-user"></i></span>
-                                        <asp:TextBox ID="txtUserName" placeholder="Username" runat="server"
-                                            onFocus="this.select();" CssClass="form-control-blue validatetxt"></asp:TextBox>
-
+                                    <div class="mb-3">
+                                        <div class="input-group">
+                                            <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                            <asp:TextBox ID="txtUserName" placeholder="Username" runat="server" onFocus="this.select();" CssClass="form-control form-control-lg validatetxt"></asp:TextBox>
+                                        </div>
                                     </div>
                                     <%--<asp:Label ID="Label1" runat="server" Text="Label" CssClass="vd_red" Visible="false"></asp:Label>--%>
                                     <div class="">
                                         <label class="control-label sr-only" for="password">Password</label>
                                     </div>
-                                    <div class="vd_input-wrapper vd_input-margin">
-                                        <span class="menu-icon"><i class="fa fa-key"></i></span>
-                                        <asp:TextBox ID="txtPassword" placeholder="Password" TextMode="Password"
-                                            CssClass="form-control-blue validatetxt" runat="server"></asp:TextBox>
-
+                                    <div class="mb-3">
+                                        <div class="input-group">
+                                            <span class="input-group-text"><i class="fa fa-key" aria-hidden="true"></i></span>
+                                            <asp:TextBox ID="txtPassword" placeholder="Password" TextMode="Password" CssClass="form-control form-control-lg validatetxt" runat="server"></asp:TextBox>
+                                        </div>
                                     </div>
                                     <%--<asp:Label ID="Label2" runat="server" Text="Label" CssClass="vd_red" Visible="false"></asp:Label>--%>
 
@@ -241,7 +249,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="vd_login-error" class="alert alert-danger hidden"><i class="fa fa-exclamation-circle fa-fw"></i>Please fill in the necessary field(s) </div>
+                                <div id="vd_login-error" class="alert alert-danger d-none"><i class="fa fa-exclamation-circle fa-fw"></i>Please fill in the necessary field(s) </div>
                             <div class="form-group">
 
 
@@ -250,17 +258,15 @@
                                     <div class="row">
                                         <div class="">
                                             <div class="col-6 no-mgpd">
-                                                <div class="vd_checkbox float-start mgtp-5">
-                                                    <asp:CheckBox ID="chkRememberMe" runat="server" />
-
-                                                    <label for="chkRememberMe" style="left: 8px !important">Remember me</label>
+                                                <div class="form-check">
+                                                    <asp:CheckBox ID="chkRememberMe" runat="server" CssClass="form-check-input" />
+                                                    <label for="chkRememberMe" class="form-check-label ms-2">Remember me</label>
                                                 </div>
                                             </div>
                                             <div class="col-6 no-mgpd">
                                                 <asp:UpdatePanel ID="UpdatePanel3" runat="server">
                                                     <ContentTemplate>
-                                                        <asp:LinkButton ID="LinkButton1" runat="server" OnClientClick="return ValidateTextBox('.validatetxt');"
-                                                            class="button loginbtn width-100" OnClick="LinkButton1_Click" style="width: 162px !important;"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp;&nbsp;Log In</asp:LinkButton>
+                                                        <asp:LinkButton ID="LinkButton1" runat="server" OnClientClick="return ValidateTextBox('.validatetxt');" class="btn btn-primary btn-lg w-100" OnClick="LinkButton1_Click"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp;&nbsp;Log In</asp:LinkButton>
                                                         <i class="append-icon icon-picasa fa-spin mgr-09" id="wait" style="visibility: hidden; color:#fff !important;" runat="server"></i>
 
 
@@ -275,7 +281,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12 text-center mgbt-xs-5">
-                                    <div class="forget-link pull-left">
+                                    <div class="text-start">
                                         <a class="postlink-color hower_underline" style="color: #23709e !important;" href="forgot-password.aspx">Forgot Password? </a>
 
                                     </div>
