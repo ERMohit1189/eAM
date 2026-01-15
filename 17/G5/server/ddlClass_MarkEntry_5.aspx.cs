@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class _17_G5_server_ddlClass_MarkEntry_5 : System.Web.UI.Page
+{
+    private DataTable _dt = new DataTable();
+    private readonly Campus _oo = new Campus();
+    private string _perType = "";
+    private string _sql = "";
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        Response.Write("<select id ='drpclass' class='form-control-blue'>");
+        Response.Write("<option value=''><--Select--></option>");
+        if (Session["Logintype"].ToString() == "Admin")
+        {
+            _sql = "Select Distinct ClassName,cm.Id as Id,CIDOrder from ClassMaster cm ";
+            _sql += " inner join dt_ClassGroupMaster t1 on cm.id = T1.ClassId and cm.SessionName = T1.SessionName and T1.BranchCode=cm.BranchCode ";
+            _sql += " where cm.SessionName='" + Session["SessionName"] + "' and cm.BranchCode=" + Session["BranchCode"] + " and GroupId='G5' Order by CIDOrder";
+            _dt = DAL.DALInstance.GetValueInTable(_sql);
+
+            if (_dt != null && _dt.Rows.Count > 0)
+            {
+                for (int i = 0; i < _dt.Rows.Count; i++)
+                {
+                    Response.Write("<option value='" + _dt.Rows[i]["id"].ToString() + "'>" + _dt.Rows[i]["ClassName"].ToString() + "</option>");
+                }
+            }
+        }
+        else
+        {
+            _sql = "Select Distinct ClassName,cm.Id,CIDOrder from ICSESubjectTeacherAllotment T1";
+            _sql += " inner join ClassMaster cm on cm.Id = T1.ClassId and cm.SessionName = t1.SessionName and cm.BranchCode = t1.BranchCode ";
+            _sql += " inner join dt_ClassGroupMaster T2 on T2.ClassId = T1.ClassId and cm.SessionName = T1.SessionName and T1.BranchCode=t2.BranchCode ";
+            _sql += " where T1.BranchCode=" + Session["BranchCode"] + " and t2.SessionName='" + Session["SessionName"] + "' and GroupId = 'G5' and ECode = '" + Session["LoginName"].ToString() + "'";
+            _sql += " Order by CIDOrder";
+            _dt = DAL.DALInstance.GetValueInTable(_sql);
+            if (_dt != null && _dt.Rows.Count > 0)
+            {
+                for (int i = 0; i < _dt.Rows.Count; i++)
+                {
+                    Response.Write("<option value='" + _dt.Rows[i]["id"].ToString() + "'>" + _dt.Rows[i]["ClassName"].ToString() + "</option>");
+                }
+            }
+        }
+        Response.Write("</select>");
+    }
+}

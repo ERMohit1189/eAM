@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <data>
+         <Srno>1</Srno>
+         <Title>CompositeFee</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>INR {{{}}} has been received as Fee for {{{}}} . Receipt No: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>2</Srno>
+         <Title>AdmissionFormFee</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>INR {{{}}} has been received as Admission Fee for {{{}}} . Receipt No: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>3</Srno>
+         <Title>TransferCertificateFee</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>INR {{{}}} has been received as TC Fee for {{{}}} . Receipt No: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>4</Srno>
+         <Title>CharacterCertificateFee</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>INR {{{}}} has been received as CC Fee for {{{}}} . Receipt No: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>5</Srno>
+         <Title>OtherFee</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>INR {{{}}} has been received as Other Fee for {{{}}} . Receipt No: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>6</Srno>
+         <Title>AdditionalFee</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>INR {{{}}} has been received as Additional Fee for {{{}}} . Receipt No: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>7</Srno>
+         <Title>ProductFee</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>INR {{{}}} has been received as Product Fee for {{{}}} . Receipt No: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>8</Srno>
+         <Title>LibraryFine</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>INR {{{}}} has been received as Library Fine for {{{}}} . Receipt No: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>9</Srno>
+         <Title>TransactionClearance</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>XYZ</SMSTemplate>
+     </data>
+     <data>
+         <Srno>10</Srno>
+         <Title>ReceiptCancellation</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Receipt No: {{{}}} for {{{}}} has been cancelled against the amount of INR {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>11</Srno>
+         <Title>FeeOverdueReminder</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Dear Guardian, INR {{{}}} is Balance towards the Fee of {{{}}} . Please ignore if already paid.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>12</Srno>
+         <Title>StudentRegistration</Title>
+         <TemplateFor>StudentsCredentials</TemplateFor>
+         <SMSTemplate>Congrats! {{{}}} , you have successfully registered with ATPL. Your Username: {{{}}} and Password: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>13</Srno>
+         <Title>StudentRegistration</Title>
+         <TemplateFor>GuardiansCredentials</TemplateFor>
+         <SMSTemplate>Congrats Mr./Ms. {{{}}} , your ward has been successfully registered with ATPL. Your Username: {{{}}} and Password: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>14</Srno>
+         <Title>StaffRegistration</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Congrats! {{{}}} , you have successfully registered with ATPL. Your Username: {{{}}} and Password: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>15</Srno>
+         <Title>AdminSignup</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Congrats! {{{}}} , you have successfully registered with ATPL as admin. Your Username: {{{}}} and Password: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>16</Srno>
+         <Title>GuardianLoginCredentials</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Dear Guardian, the login credentials for your ward {{{}}} are as follows: Username: {{{}}} and Password: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>17</Srno>
+         <Title>StudentLoginCredentials</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Dear {{{}}} , the login credentials are as follows: Username: {{{}}} and Password: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>18</Srno>
+         <Title>ForgotPassword</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Dear {{{}}} , the login credentials are as follows: Username: {{{}}} and Password: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>19</Srno>
+         <Title>StudentGatePass</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Dear Guardian, your ward {{{}}} has been sent home with {{{}}} due to a {{{}}} .</SMSTemplate>
+     </data>
+     <data>
+         <Srno>20</Srno>
+         <Title>VisitorGatePass</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Gate Pass No: {{{}}} has been generated for {{{}}} with Subject: {{{}}}.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>21</Srno>
+         <Title>AdmissionEnquiry</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Dear Guardian, Admission Enquiry No: {{{}}} has been generated for {{{}}} for Class {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>22</Srno>
+         <Title>AdmissionPortal</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Dear User, your Admission Portal OTP is: {{{}}}</SMSTemplate>
+     </data>
+     <data>
+         <Srno>23</Srno>
+         <Title>TransportAlert</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Dear Guardian, transport services will be suspended tomorrow. Kindly arrange alternate transport.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>24</Srno>
+         <Title>ResultMessage</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Dear {{{}}} , congratulations on your outstanding performance in the annual examination results.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>25</Srno>
+         <Title>HolidayMessage</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Dear {{{}}} , the school will be closed tomorrow as per government orders.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>26</Srno>
+         <Title>GreetingMessage</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Dear {{{}}} , congratulations and best wishes for your annual examination.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>27</Srno>
+         <Title>CustomMessage</Title>
+         <TemplateFor>Default</TemplateFor>
+         <SMSTemplate>Dear Parent, kindly attend the Parents-Teacher Meeting tomorrow at {{{}}} . Your presence is important.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>28</Srno>
+         <Title>StudentDailyAttendanceManual</Title>
+         <TemplateFor>Present</TemplateFor>
+         <SMSTemplate>Dear Guardian, your ward {{{}}} was present today ({{{}}}) .</SMSTemplate>
+     </data>
+     <data>
+         <Srno>29</Srno>
+         <Title>StudentDailyAttendanceManual</Title>
+         <TemplateFor>Absent</TemplateFor>
+         <SMSTemplate>Dear Guardian, your ward {{{}}} was absent today ({{{}}}) . Kindly ensure regular attendance.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>30</Srno>
+         <Title>StudentDailyAttendanceManual</Title>
+         <TemplateFor>Late</TemplateFor>
+         <SMSTemplate>Dear Guardian, your ward {{{}}} was late today ({{{}}}) . Kindly ensure timely attendance.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>31</Srno>
+         <Title>StudentDailyAttendanceAuto</Title>
+         <TemplateFor>Present</TemplateFor>
+         <SMSTemplate>Dear Guardian, your ward {{{}}} was present today {{{}}} and punched in at {{{}}} .</SMSTemplate>
+     </data>
+     <data>
+         <Srno>32</Srno>
+         <Title>StudentDailyAttendanceAuto</Title>
+         <TemplateFor>Absent</TemplateFor>
+         <SMSTemplate>Dear Guardian, your ward {{{}}} was absent today ({{{}}}) . Kindly ensure regular attendance.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>33</Srno>
+         <Title>StudentDailyAttendanceAuto</Title>
+         <TemplateFor>Late</TemplateFor>
+         <SMSTemplate>Dear Guardian, your ward {{{}}} was late today ({{{}}}) and punched in at {{{}}} . Kindly ensure timely attendance.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>34</Srno>
+         <Title>StaffAttendanceManual</Title>
+         <TemplateFor>Present</TemplateFor>
+         <SMSTemplate>Dear {{{}}} , you were present today ({{{}}}) .</SMSTemplate>
+     </data>
+     <data>
+         <Srno>35</Srno>
+         <Title>StaffAttendanceManual</Title>
+         <TemplateFor>Absent</TemplateFor>
+         <SMSTemplate>Dear {{{}}} , you were absent today ({{{}}}) . Kindly ensure regular attendance.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>36</Srno>
+         <Title>StaffAttendanceManual</Title>
+         <TemplateFor>Late</TemplateFor>
+         <SMSTemplate>Dear {{{}}} , your were late today ({{{}}}) . Kindly ensure timely attendance.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>37</Srno>
+         <Title>StaffAttendanceAuto</Title>
+         <TemplateFor>Present</TemplateFor>
+         <SMSTemplate>Dear {{{}}} , you were present today ({{{}}}) and punched in at {{{}}} .</SMSTemplate>
+     </data>
+     <data>
+         <Srno>38</Srno>
+         <Title>StaffAttendanceAuto</Title>
+         <TemplateFor>Absent</TemplateFor>
+         <SMSTemplate>Dear {{{}}} , you were absent today ({{{}}}) . Kindly ensure regular attendance.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>39</Srno>
+         <Title>StaffAttendanceAuto</Title>
+         <TemplateFor>Late</TemplateFor>
+         <SMSTemplate>Dear {{{}}} , your were late today ({{{}}}) and punched in at {{{}}} . Kindly ensure timely attendance.</SMSTemplate>
+     </data>
+     <data>
+         <Srno>40</Srno>
+         <Title>Alumni Portal:</Title>
+         <TemplateFor>Registration</TemplateFor>
+         <SMSTemplate>A</SMSTemplate>
+     </data>
+     <data>
+         <Srno>41</Srno>
+         <Title>Alumni Portal:</Title>
+         <TemplateFor>RegistrationOTP</TemplateFor>
+         <SMSTemplate>B</SMSTemplate>
+     </data>
+     <data>
+         <Srno>42</Srno>
+         <Title>Alumni Portal:</Title>
+         <TemplateFor>ForgotPassword</TemplateFor>
+         <SMSTemplate>C</SMSTemplate>
+     </data>
+     <data>
+         <Srno>43</Srno>
+         <Title>Alumni Portal: Registration Confirmation/Activation with credentials</Title>
+         <TemplateFor>RCWC</TemplateFor>
+         <SMSTemplate>D</SMSTemplate>
+     </data>
+     <data>
+         <Srno>44</Srno>
+         <Title>Alumni Portal: Registration Rejection with reason</Title>
+         <TemplateFor>RRWR</TemplateFor>
+         <SMSTemplate>E</SMSTemplate>
+     </data>
+ </root>

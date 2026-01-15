@@ -1,0 +1,74 @@
+﻿<%@ Page Title="Library | eAM&#174;" Language="C#" MasterPageFile="~/sp/sp_root-manager.master" AutoEventWireup="true" CodeFile="Library.aspx.cs" Inherits="sp_Library" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderMainhead" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMainBox" Runat="Server">
+     <div id="loader" runat="server"></div>
+    <asp:UpdatePanel ID="tyu" runat="server">
+        <ContentTemplate>
+            <div class="vd_content-section clearfix">
+                <div class="row">
+                    <div class="col-sm-12 ">
+                        <div class="panel widget light-widget panel-bd-top ">
+                            <div class="panel-body ">
+                                  <div class="col-sm-12 ">
+                                      <div id="msgbox" runat="server" style="left:0px"></div>
+                                      </div>
+                                <div class="col-sm-12 ">
+                                    <div class="table-responsive2 table-responsive">
+                                        <asp:GridView ID="grdDocList" runat="server" AutoGenerateColumns="false" CssClass="table table-striped no-bm table-hover no-head-border table-bordered pro-table">
+                                            <Columns>
+                                                <asp:TemplateField HeaderText="#">
+                                                    <ItemTemplate>
+                                                        <asp:Label ID="lblSrno" runat="server" Text='<%# Container.DataItemIndex+1 %>'></asp:Label>
+                                                    </ItemTemplate>
+                                                    <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" CssClass="vd_bg-blue-np vd_white-np" Width="40px" />
+                                                    <ItemStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                                                </asp:TemplateField>
+                                                <asp:TemplateField HeaderText="Accession No.">
+                                                    <ItemTemplate>
+                                                        <asp:Label ID="lblTitle" runat="server" Text='<%# Bind("Accessionno") %>'></asp:Label>
+                                                    </ItemTemplate>
+                                                    <HeaderStyle HorizontalAlign="Left" VerticalAlign="Middle" CssClass="vd_bg-blue-np vd_white-np" />
+                                                    <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" />
+                                                </asp:TemplateField>
+
+                                                 <asp:TemplateField HeaderText="Title">
+                                                    <ItemTemplate>
+                                                        <asp:Label ID="lblTitle" runat="server" Text='<%# Bind("Title") %>'></asp:Label>
+                                                    </ItemTemplate>
+                                                    <HeaderStyle HorizontalAlign="Left" VerticalAlign="Middle" CssClass="vd_bg-blue-np vd_white-np" />
+                                                    <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" />
+                                                </asp:TemplateField>
+
+                                                 <asp:TemplateField HeaderText="Issue Date">
+                                                    <ItemTemplate>
+                                                        <asp:Label ID="lblTitle" runat="server" Text='<%# Bind("IssueDate") %>'></asp:Label>
+                                                    </ItemTemplate>
+                                                    <HeaderStyle HorizontalAlign="Left" VerticalAlign="Middle" CssClass="vd_bg-blue-np vd_white-np" />
+                                                    <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" />
+                                                </asp:TemplateField>
+
+                                                 <asp:TemplateField HeaderText="Return Date">
+                                                    <ItemTemplate>
+                                                        <asp:Label ID="lblTitle" runat="server" Text='<%# Bind("ReturnDate") %>'></asp:Label>
+                                                    </ItemTemplate>
+                                                    <HeaderStyle HorizontalAlign="Left" VerticalAlign="Middle" CssClass="vd_bg-blue-np vd_white-np" />
+                                                    <ItemStyle HorizontalAlign="Left" VerticalAlign="Middle" />
+                                                </asp:TemplateField>
+                                              
+                                            </Columns>
+                                        </asp:GridView>
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+</asp:Content>
+

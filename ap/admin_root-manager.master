@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/ap/main-ap.master" AutoEventWireup="true" CodeFile="admin_root-manager.master.cs" Inherits="admin_admin_root_manager" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderMainhead" runat="Server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderMainhead" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderMainBox" runat="Server">
+            <!-- vd_title-section -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderMainBox" runat="server">
+            </asp:ContentPlaceHolder>
+            
+</asp:Content>
+

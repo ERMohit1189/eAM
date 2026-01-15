@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="50/dashboard-SupperAdmin.aspx" title="Dashboard"  description="">
+    <siteMapNode url="50/PrerequisiteSuperAdmin.aspx" title="Prerequisite"/>
+    <siteMapNode url="" title="Master"  description="">
+      <siteMapNode url="50/admissionDatePermission.aspx" title="Admission Portal Date"  description="" />
+      <siteMapNode url="50/SocietyOrTrust.aspx" title="Society/ Trust Master"  description="" />
+      <siteMapNode url="50/country_master.aspx" title="Country"/>
+      <siteMapNode url="50/state_master.aspx" title="State"/>
+      <siteMapNode url="50/city_master.aspx" title="City"/>
+      <siteMapNode url="1/session_master.aspx" title="Academic Session"/>
+      <siteMapNode url="50/blood_group_master.aspx" title="Blood Group"/>
+      <siteMapNode url="50/religion_master.aspx" title="Religion"/>
+      <siteMapNode url="50/category_master.aspx" title="Category"/>
+      <siteMapNode url="50/LoginScreenWallpaper.aspx" title="Login Screen Wallpaper"/>
+      <siteMapNode url="50/guardian_occupation_master.aspx" title="Guardian Occupation"/>
+      <siteMapNode url="50/guardian_qualification_master.aspx" title="Guardian Qualification"/>
+
+      <siteMapNode url="1/BoardMaster.aspx" title="Board/ University"/>
+      <siteMapNode url="1/Medium.aspx" title="Medium"/>
+      <siteMapNode url="1/CourseMaster.aspx" title="Course"/>
+      <siteMapNode url="admin/EducationACT.aspx" title="Education Act"/>
+      <siteMapNode url="50/uploadFeeStructure.aspx" title="Upload Fee Structure"/>
+      <siteMapNode url="1/AttendanceMaster.aspx" title="Attendance Abbreviation"/>
+      <siteMapNode url="1/house_master.aspx" title="House"/>
+      <siteMapNode url="50/PreviousClassMaster.aspx" title="Previous Class"/>
+      <siteMapNode url="1/ValidationSetting.aspx" title="Validation Setting"/>
+      <siteMapNode url="50/PlannerType.aspx" title="Planner Master"/>
+
+    </siteMapNode>
+    <siteMapNode url="" title="User Management"  description="">
+      <siteMapNode url="50/CreateAdmin.aspx" title="Admin Login"/>
+      <siteMapNode url="50/menu_accessability.aspx" title="Admin Privilege"/>
+      <siteMapNode url="50/StaffLoginDetails.aspx" title="Staff Login"/>
+      <siteMapNode url="50/StaffMenuAccessability.aspx" title="Staff Privilege"/>
+      <siteMapNode url="50/GuardianLoginDetails.aspx" title="Guardian's Login"/>
+      <siteMapNode url="50/StudentLoginDetails.aspx" title="Student's Login"/>
+      <siteMapNode url="50/GenrateGuardianPassword.aspx" title="Generate Guardian's Password"/>
+      <siteMapNode url="50/GenrateStudentPassword.aspx" title="Generate Student's Password"/>
+    </siteMapNode>
+    <siteMapNode url="" title="Account"  description="">
+      <siteMapNode url="50/PettyCash.aspx" title="Petty Cash"/>
+      <siteMapNode url="50/PettyCashReport.aspx" title="Petty Cash Report"/>
+    </siteMapNode>
+    <siteMapNode url="" title="Report"  description="">
+      <siteMapNode url="2/dcr.aspx" title="Daily Collection Report"/>
+      <siteMapNode url="2/FeeCollectionReportReceiptwise.aspx" title="Fee Collection (Receipt wise)"/>
+      <siteMapNode url="2/DueDepositBalance.aspx" title="Due Deposit Balance Report"/>
+      <siteMapNode url="50/DateWiseCollectionBranchwise.aspx" title="Fee Collection Branch Wise"/>
+      <siteMapNode url="2/ArrearReport.aspx" title="Arrear Report"/>
+    </siteMapNode>
+    <siteMapNode url="admin/database_backup.aspx" title="Database Backup"/>
+    <siteMapNode url="50/ChangePassword.aspx" title="Change Password"/>
+    <siteMapNode url="11/news.aspx" title="Bulletin Board"/>
+  </siteMapNode>
+</siteMap>

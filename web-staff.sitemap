@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="dashboard-main.aspx" title="Dashboard">
+
+    <siteMapNode url="profile.aspx" title="Profile"/>
+    <siteMapNode url="readtheguide.aspx" title="Read the Guide"/>
+
+    <siteMapNode url="submitticket.aspx" title="Submit Ticket"/>
+    <siteMapNode url="ChangePassword.aspx" title="Change Password"/>
+    <!--<siteMapNode url="Planner.aspx" title="Planner"/>-->
+    <!--<siteMapNode url="userguide.aspx" title="User Guide"/>-->
+    <siteMapNode url="your_account.aspx" title="Your Account"/>
+    <siteMapNode url="about.aspx" title="About"/>
+
+    <siteMapNode url="userguide.aspx" title="User Guide">
+      <siteMapNode url="help-block-pop-up.aspx" title="How to allow Pop-ups"/>
+      <siteMapNode url="suggestanidea.aspx" title="Suggest an Idea"/>
+    </siteMapNode>
+
+    <siteMapNode url="11/AttendanceReport.aspx" title="Consolidated Attendance Report"/>
+    
+ <siteMapNode url="" title="Examination">
+
+      <siteMapNode url="" title="Report Card">
+        <siteMapNode url="11/G1/ReportCardofPG.aspx" title="Report Card (Play Group)"/>
+        <siteMapNode url="11/G2/ReportCardofNURtoPREP.aspx" title="Report Card (Nursery to Prep.)"/>
+        <siteMapNode url="11/G3/ReportCardofItoV.aspx" title="Report Card (First to Fifth)"/>
+        <siteMapNode url="11/G4/ReportCardofVItoVIII_1617.aspx" title="Report Card (Sixth to Eighth)"/>
+        <siteMapNode url="11/G4/ReportCardofVItoVIIIPer_1617.aspx" title="Report Card (Sixth to Eighth)"/>
+        <siteMapNode url="11/G5/ReportCardofIXtoX_1617.aspx" title="Report Card (Ninth to Tenth)"/>
+        <siteMapNode url="11/G5/ReportCardofIXtoXPer_1617.aspx" title="Report Card (Ninth to Tenth)"/>
+        <siteMapNode url="11/G6/PrintReportCardXI.aspx" title="Report Card (Eleventh)"/>
+        <siteMapNode url="11/G7/PrintReportCardXII.aspx" title="Report Card (Twelth)"/>
+        <siteMapNode url="11/G6/PrintReportCardXI_1718_New.aspx?check=PrintReportCardXI" title="Report Card (Eleventh)"/>
+        <siteMapNode url="11/G7/PrintReportCardXII_1718_New.aspx?check=PrintReportCardXII" title="Report Card (Twelth)"/>
+        <siteMapNode url="11/G5/ReportCard_IXtoX_1718Type2.aspx?check=ReportCardofIXtoX" title="Report Card (Ninth to Tenth Type2)"/>
+
+        <siteMapNode url="11/G1/ReportCard_NURtoPREP_1718.aspx" title="Report Card (Nursery to Prep.)"/>
+        <siteMapNode url="11/G2/ReportCard_NURtoPREP_1718.aspx" title="Report Card (Nursery to Prep.)"/>
+        <siteMapNode url="11/G3/ReportCard_ItoV_1718.aspx" title="Report Card (First to Fifth)"/>
+        <siteMapNode url="11/G4/ReportCard_VItoVIII_1718.aspx" title="Report Card (Sixth to Eighth)"/>
+        <siteMapNode url="11/G5/ReportCard_IXtoX_1718.aspx" title="Report Card (Ninth to Tenth)"/>
+        <siteMapNode url="14/ReportCard_NurtoPrep.aspx" title="Report Card (Nur to Prep)"/>
+        <siteMapNode url="14/ReportCard_ItoVIII.aspx" title="Report Card (I to VIII)"/>
+        <siteMapNode url="14/ReportCard_IXtoXII.aspx" title="Report Card (IX to XII)"/>
+      </siteMapNode>
+      <siteMapNode url="11/ng/MarksEntry_ng.aspx?print=1" title="Mark Entry"/>
+      <siteMapNode url="11/ng/Master_traitsEntry_ng.aspx?print=Entry" title="Traits Entry"/>
+      <siteMapNode url="4/StudentAttendanceManualy_ng.aspx" title="Manual Attendance"/>
+      <siteMapNode url="11/ng/ClassTeacherComment_ng.aspx" title="Class Teacher Comment"/>
+
+      <siteMapNode url="" title="Class wise Cumulative">
+        <siteMapNode url="11/G1/ClasswiseAllSubjectMarksList_PG.aspx" title="PG"/>
+        <siteMapNode url="11/G2/ClasswiseAllSubjectMarksList_NURtoPrep.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G3/ClasswiseAllSubjectMarksListItoV_1617.aspx" title="Primary"/>
+        <siteMapNode url="11/G4/ClasswiseAllSubjectMarksListVItoVIII_1617.aspx" title="Junior"/>
+        <siteMapNode url="11/G5/ClasswiseAllSubjectMarksListIXtoX_1617.aspx" title="Secondary"/>
+        <siteMapNode url="11/G6/ClasswiseAllSubjectMarksListXI_1617.aspx" title="Eleventh"/>
+        <siteMapNode url="11/G7/ClasswiseAllSubjectMarksListXII_1617.aspx" title="Twelfth"/>
+
+        <siteMapNode url="11/G2/ClasswiseAllSubjectMarksListNurtoPrep_1718.aspx" title="Pre Primary"/>
+		<siteMapNode url="11/G1/ClasswiseAllSubjectMarksListNurtoPrep_1718.aspx" title="Pre Primary"/>		  
+        <siteMapNode url="11/G3/ClasswiseAllSubjectMarksListItoV_1718.aspx" title="Primary"/>
+        <siteMapNode url="11/G4/ClasswiseAllSubjectMarksListVItoVIII_1718.aspx" title="Junior"/>
+        <siteMapNode url="11/G5/ClasswiseAllSubjectMarksListIXtoX_1718.aspx" title="Secondary"/>
+
+        <siteMapNode url="11/G6/ClasswiseAllSubjectMarksListXI_1718.aspx" title="Eleventh"/>
+        <siteMapNode url="11/G7/ClasswiseAllSubjectMarksListXII_1718.aspx" title="Twelfth"/>
+        <siteMapNode url="14/ClasswiseCumlativeItoVIII.aspx" title="I to VIII"/>
+        <siteMapNode url="14/ClasswiseCumlativeIXtoXII.aspx" title="IX to XII"/>
+
+
+      </siteMapNode>
+
+      <siteMapNode url="" title="Student wise Cumulative">
+        <siteMapNode url="11/G1/ClassWiseStudentsMarksList_PG.aspx" title="Student wise Cumulative (PG)"/>
+        <siteMapNode url="11/G2/ClassWiseStudentsMarksList_NUR1toPrep.aspx" title="Student wise Cumulative (Nur. to Prep.)"/>
+        <siteMapNode url="11/G3/ClassWiseStudentsMarksList_ItoV.aspx" title="Student wise Cumulative (I to V)"/>
+        <siteMapNode url="11/G4/ClassWiseStudentsMarksList_VItoVIII.aspx" title="Student wise Cumulative (VI to VIII)"/>
+        <siteMapNode url="11/G5/ClassWiseStudentsMarksList_IXtoX.aspx" title="Student wise Cumulative (IX to X)"/>
+        <siteMapNode url="11/G6/ClassWiseStudentsMarksList_XI.aspx" title="Student wise Cumulative (XI)"/>
+        <siteMapNode url="11/G7/ClassWiseStudentsMarksList_XII.aspx" title="Student wise Cumulative (XII)"/>
+
+        <siteMapNode url="11/G1/ParticularStudentMarksPG.aspx" title="PG"/>
+        <siteMapNode url="11/G2/ParticularStudentMarksNUR1toPrep.aspx" title="NUR to PREP"/>
+        <siteMapNode url="11/G3/ParticularStudentMarksItoV_1617.aspx" title="I to V"/>
+        <siteMapNode url="11/G4/ParticularStudentMarksVItoVIII_1617.aspx" title="VI Ito VIII"/>
+        <siteMapNode url="11/G5/ParticularStudentMarksIXtoX_1617.aspx" title="IX to X"/>
+        <siteMapNode url="11/G6/ParticularStudentMarksXI_1617.aspx" title="XI"/>
+        <siteMapNode url="11/G7/ParticularStudentMarksXII_1617.aspx" title="XII"/>
+
+        <siteMapNode url="11/G1/Studentwisecumulative_NurtoPrep.aspx" title="Student wise/ Class wise Cumulative (Nur. to Prep.)"/>
+        <siteMapNode url="11/G2/Studentwisecumulative_NurtoPrep.aspx" title="Student wise/ Class wise Cumulative (Nur. to Prep.)"/>
+        <siteMapNode url="11/G3/Studentwisecumulative_ItoV.aspx" title="Student wise/ Class wise Cumulative (I to V)"/>
+        <siteMapNode url="11/G4/Studentwisecumulative_VItoVIII.aspx" title="Student wise/ Class wise Cumulative (VI Ito VIII)"/>
+        <siteMapNode url="11/G5/Studentwisecumulative_IXtoX.aspx" title="Student wise/ Class wise Cumulative (IX to X)"/>
+
+        <siteMapNode url="11/G6/Studentwisecumulative_XI.aspx" title="Student wise/ Class wise Cumulative (XI)"/>
+        <siteMapNode url="11/G7/Studentwisecumulative_XII.aspx" title="Student wise/ Class wise Cumulative (XII)"/>
+        <siteMapNode url="14/Studentwisecumulative_ItoVIII.aspx" title="Student wise Cumulative (I to VIII)"/>
+        <siteMapNode url="14/Studentwisecumulative_IXtoXII.aspx" title="Student wise Cumulative (IX to VII)"/>
+
+      </siteMapNode>
+
+      <siteMapNode url="" title="Subject wise Cumulative">
+        <siteMapNode url="11/G1/MarkEntryReport_PG.aspx" title="Subject wise Cumulative (PG)"/>
+        <siteMapNode url="11/G2/MarkEntryReport_NUR1toPrep.aspx" title="Subject wise Cumulative (Nur. to Prep.)"/>
+        <siteMapNode url="11/G3/MarkEntryReportItoV_1617.aspx" title="Subject wise Cumulative (I to V)"/>
+        <siteMapNode url="11/G3/MarkEntryReport_ItoV.aspx" title="Subject wise Cumulative (I to V)"/>
+        <siteMapNode url="11/G4/MarkEntryReportVItoVIII_1617.aspx" title="Subject wise Cumulative (VI Ito VIII)"/>
+        <siteMapNode url="11/G5/MarkEntryReportIXtoX_1617.aspx" title="Subject wise Cumulative (IX to X)"/>
+        <siteMapNode url="11/G6/MarkEntryReportXI_1617.aspx" title="Subject wise Cumulative (XI)"/>
+
+        <siteMapNode url="11/G1/MarksEntryReportNurtoPrep_1718.aspx" title="Subject wise Cumulative (Nur. to Prep.)"/>
+        <siteMapNode url="11/G2/MarksEntryReportNurtoPrep_1718.aspx" title="Subject wise Cumulative (Nur. to Prep.)"/>
+        <siteMapNode url="11/G3/MarksEntryReportItoV_1718.aspx" title="Subject wise Cumulative (I to V)"/>
+        <siteMapNode url="11/G4/MarksEntryReportVItoVIII_1718.aspx" title="Subject wise Cumulative (VI Ito VIII)"/>
+        <siteMapNode url="11/G5/MarksEntryReportIXtoX_1718.aspx" title="Subject wise Cumulative (IX to X)"/>
+        <siteMapNode url="11/G5/SubjectWiseCumAditionalIXtoX.aspx" title="Aditional Subject wise Cumulative (IX to X)"/>
+
+        <siteMapNode url="11/G6/MarksEntryReportXI_1718.aspx" title="Subject wise Cumulative (XI)"/>
+        <siteMapNode url="11/G7/MarksEntryReportXII_1718.aspx" title="Subject wise Cumulative (XII)"/>
+        <siteMapNode url="14/SubjectwiseCumlativeItoVIII.aspx" title="Subject wise Cumulative (I to VIII)"/>
+        <siteMapNode url="14/SubjectwiseCumlativeIXtoXII.aspx" title="Subject wise Cumulative (IX to XII)"/>
+
+
+      </siteMapNode>
+
+	 <siteMapNode url="" title="Test Wise Cumulative">
+		 <siteMapNode url="11/G1/TestwiseCumlativePG.aspx" title="Play Group"/>
+		 <siteMapNode url="11/G1/TestwiseCumlativeNurtoPrep.aspx" title="Pre Primary"/>
+		 <siteMapNode url="11/G2/TestwiseCumlativeNurtoPrep.aspx" title="Pre Primary"/>
+		 <siteMapNode url="11/G3/TestwiseCumlativeItoV.aspx" title="Primary"/>
+		 <siteMapNode url="11/G4/TestwiseCumlativeVItoVIII.aspx" title="Junior"/>
+		 <siteMapNode url="11/G5/TestwiseCumlativeIXtoX.aspx" title="Secondary"/>
+		 <siteMapNode url="11/G6/TestwiseCumlativeXI.aspx" title="Eleventh"/>
+		 <siteMapNode url="11/G7/TestwiseCumlativeXII.aspx" title="Twelfth"/>
+	 </siteMapNode>	 
+
+      <siteMapNode url="" title="Marks Entry">
+        <siteMapNode url="11/G1/MarksEntryNurtoPrep_1718.aspx" title="Marks Entry (Nur. to Prep.)"/>
+        <siteMapNode url="11/G2/MarksEntryNurtoPrep_1718.aspx" title="Marks Entry (Nur. to Prep.)"/>
+        <siteMapNode url="11/G3/MarksEntryItoV_1718.aspx" title="Marks Entry (I to V)"/>
+        <siteMapNode url="11/G4/MarksEntryVItoVIII_1718.aspx" title="Marks Entry (VI to VIII)"/>
+        <siteMapNode url="11/G5/MarksEntryIXtoX_1920.aspx" title="Marks Entry (IX to X)"/>
+        <siteMapNode url="11/G6/MarksEntryXI_1718.aspx" title="Marks Entry (XI)"/>
+        <siteMapNode url="11/G7/MarksEntryXII_1718.aspx" title="Marks Entry (XII)"/>
+        <siteMapNode url="14/MarkEntryNurtoPrep.aspx" title="Marks Entry (Nur to viii)"/>
+        <siteMapNode url="14/MarksEntryItoVIII.aspx" title="Marks Entry (I to VIII)"/>
+        <siteMapNode url="14/MarksEntryIXtoXII.aspx" title="Marks Entry (IX to XII)"/>
+      </siteMapNode>
+
+      <siteMapNode url="" title="Co-scholastic Entry">
+        <siteMapNode url="11/G1/CoscholasticGradeEntry_PG.aspx" title="Play Group"/>
+        <siteMapNode url="11/G2/CoscholasticGradeEntry_NurtoPrep.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G3/CoscholasticGradeEntryItoV_1617.aspx" title="Primary"/>
+        <siteMapNode url="11/G4/CoscholasticGradeEntry_VItoVIII.aspx" title="Junior"/>
+        <siteMapNode url="11/G5/CoscholasticGradeEntry_IXtoX.aspx" title="Secondary"/>
+        <siteMapNode url="11/G6/CoscholasticGradeEntry_XI.aspx" title="Eleventh"/>
+        <siteMapNode url="11/G7/CoscholasticGradeEntry_XII.aspx" title="Twelfth"/>
+        <siteMapNode url="11/G5/PersonalityCCEntry_IXtoX.aspx" title="Personality Character Chart Entry IX to X"/>
+      </siteMapNode>
+
+      <siteMapNode url="" title="Other Entry">
+        <siteMapNode url="11/G1/OtherActivityEntryForPG.aspx" title="Activity Entry (PG)"/>
+        <siteMapNode url="11/G6/XIGRADEENTRY.aspx" title="Grade Entry (XI)"/>
+        <siteMapNode url="11/G6/RemarkForXI_1718.aspx" title="Remark Entry (XI)"/>
+        <siteMapNode url="11/G7/XIIGRADEENTRY.aspx" title="Grade Entry (XII)"/>
+        <siteMapNode url="11/G6/RemarkForXI.aspx" title="Remark Entry (XI)"/>
+        <siteMapNode url="11/G7/RemarkForXII.aspx" title="Remark Entry (XII)"/>
+        <siteMapNode url="11/G7/RemarkForXII_1718.aspx" title="Remark Entry (XII)"/>
+        <siteMapNode url="11/G4/VItoVIIISelfAwareness.aspx" title="Self Awareness for VI to VIII"/>
+        <siteMapNode url="11/G5/IXtoXSelfAwareness.aspx" title="Self Awareness for IX to X"/>
+        <siteMapNode url="11/G1/PGRemark.aspx" title="Remark Entry (PG)"/>
+        <siteMapNode url="11/G2/NURtoPREPRemark.aspx" title="Remark Entry (NUR to PREP)"/>
+        <siteMapNode url="11/G3/ItoVRemark.aspx" title="I to VI Remark"/>
+
+      </siteMapNode>
+
+      <siteMapNode url="" title="Send Marks">
+        <siteMapNode url="11/G1/SmsAlertForPG_1718.aspx" title="Send Marks (PG)"/>
+        <siteMapNode url="11/G2/SmsAlertForNurtoPrep_1718.aspx" title="Send Marks (Nur. to Prep.)"/>
+        <siteMapNode url="11/G3/SmsAlertForItoV_1718.aspx" title="Send Marks (I to V)"/>
+        <siteMapNode url="11/G4/SmsAlertForVItoVIII_1718.aspx" title="Send Marks (VI to VIII)"/>
+        <siteMapNode url="11/G5/SmsAlertForIXtoX_1718.aspx" title="Send Marks (IX to X)"/>
+        <siteMapNode url="11/G6/SmsAlertForXI_1718.aspx" title="Send Marks (XI)"/>
+        <siteMapNode url="11/G7/SmsAlertForXII_1718.aspx" title="Send Marks (XII)"/>
+      </siteMapNode>
+      <siteMapNode url="4/StudentAttendanceManualy.aspx" title="Manual Attendance Entry"/>
+    </siteMapNode>
+
+
+    <siteMapNode url="" title="Examinations">
+
+      <siteMapNode url="" title="Grade Entry">
+        <siteMapNode url="16/G2/AditionalGradeEntry.aspx" title="Additional Subject Grade Entry (Nur. to Prep.)"/>
+        <siteMapNode url="16/G3/AditionalGradeEntry.aspx" title="Additional Subject Grade Entry (I to V)"/>
+        <siteMapNode url="16/G4/AditionalGradeEntry.aspx" title="Additional Subject Grade Entry (VI to VIII)"/>
+        <siteMapNode url="16/G5/AditionalGradeEntry.aspx" title="Additional Subject Grade Entry (IX to X)"/>
+        <siteMapNode url="16/G6/AditionalGradeEntry.aspx" title="Additional Subject Grade Entry (XI)"/>
+        <siteMapNode url="16/G7/AditionalGradeEntry.aspx" title="Additional Subject Grade Entry (XII)"/>
+      </siteMapNode>
+
+
+      <siteMapNode url="" title="Test Wise Cumulative">
+        <siteMapNode url="16/G1/TestwiseCumlativePG.aspx" title="Play Group"/>
+        <siteMapNode url="16/G2/TestwiseCumlativeNurtoPrep.aspx" title="Pre Primary"/>
+        <siteMapNode url="16/G3/TestwiseCumlativeItoV.aspx" title="Primary"/>
+        <siteMapNode url="16/G4/TestwiseCumlativeVItoVIII.aspx" title="Junior"/>
+        <siteMapNode url="16/G5/TestwiseCumlativeIXtoX.aspx" title="Secondary"/>
+        <siteMapNode url="16/G6/TestwiseCumlativeXI.aspx" title="Eleventh"/>
+        <siteMapNode url="16/G7/TestwiseCumlativeXII.aspx" title="Twelfth"/>
+      </siteMapNode>
+
+    </siteMapNode>
+
+
+	  <siteMapNode url="" title="Time Table">
+		  <siteMapNode url="" title="Reports">
+			  <siteMapNode url="11/TimeTableTeacherWise.aspx" title="Time Table"/>
+
+		  </siteMapNode>
+		  
+	  </siteMapNode>
+		  
+  </siteMapNode>
+</siteMap>

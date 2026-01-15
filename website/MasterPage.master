@@ -1,0 +1,388 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>eAM Website</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon/favicon.ico" />
+    <!-- Place favicon.ico in the root directory -->
+    <!-- All css files are included here. -->
+    <!-- Bootstrap fremwork main css -->
+    <link rel="stylesheet" href="../css/website_css/bootstrap.min.css" />
+    <!-- This core.css file contents all plugings css file. -->
+    <link rel="stylesheet" href="../css/website_css/core.css" />
+    <!-- Theme shortcodes/elements style -->
+    <link rel="stylesheet" href="../css/website_css/shortcode/shortcodes.css" />
+    <!-- Nivo Slider -->
+    <link rel="stylesheet" href="../css/website_css/nivo-slider.css" />
+    <!-- Magnific Popup Css -->
+    <link rel="stylesheet" href="../css/website_css/magnific-popup.css" />
+    <!-- Material design iconic font Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" />
+    <!-- Venubox Css -->
+    <link rel="stylesheet" href="../css/website_css/venobox.css" />
+    <!-- Owl carsoul Css -->
+    <link rel="stylesheet" href="../css/website_css/owl.carousel.css" />
+    <!-- Mean Menu Css -->
+    <link rel="stylesheet" href="../css/website_css/meanmenu.min.css" />
+    <!-- Theme main style -->
+    <link rel="stylesheet" href="../css/website_css/style.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="../css/website_css/responsive.css" />
+    <!-- User style -->
+    <link rel="stylesheet" href="../css/website_css/custom.css" />
+    <!-- Style customizer Css -->
+    <link rel="stylesheet" href="../css/website_css/style-customizer.css" />
+    <link href="#" data-style="styles" rel="stylesheet" />
+    <!-- Modernizr JS -->
+    <script src="../js/website_js/modernizr-2.8.3.min.js"></script>
+    <script src="../js/website_js/myscript.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="wrapper gray-bg">
+                <!-- Start of header area -->
+                <header class="header-area black-bg header-wrapper">
+                    <!-- Header Top Area Start -->
+                    <div class="header-top-area menu-color">
+                        <div class="container">
+                            <div class="row">
+                                <!-- Header Top Left Start -->
+                                <div class="col-md-12 col-sm-12 ">
+                                    <div class="header-left ptb-15 pull-left">
+                                        <ul>
+                                            <li><span>
+                                                <img src="images/login.png" /></span><a class="clr-light" href="#">eAM Login</a></li>
+                                            <li><span><i class="zmdi zmdi-phone"></i></span><a class="clr-light" href="#">+91 9965321542</a></li>
+                                            <li><span><i class="zmdi zmdi-email"></i></span><a class="clr-light" href="#">breed@gmail.com</a></li>
+                                            <li><span><i class="zmdi zmdi-collection-pdf"></i></span><a class="clr-light" href="#">Download prospectus</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Header Top Area End -->
+                    <!-- Header Menu Area Start -->
+                    <div class="main-menu-area black-bg broder-top ptb-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-3 hidden-xs">
+                                    <div class="logo-area">
+                                        <a href="default.aspx">
+                                            <img class="displayed" src="../images/logo.png" alt="" /></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-9 hidden-xs">
+                                    <div class="name-area">
+                                        <h4 class="center ft-20 no-padd clr-wight">RED ROSE PUBLIC SENIOR SECONDARY SCHOOL</h4>
+                                        <p class="center ft-16 no-padd clr-wight">KANPUR ROAD LUCKNOW</p>
+                                        <p class="center ft-13 no-padd clr-wight">AFFILIATED TO CENTRAL BOARD OF SECONDARY EDUCATION NEW DELHI</p>
+                                        <p class="center ft-13 no-padd clr-wight">AFFILIATION NO.- 2130822 & SCHOOL NO.- 54296</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-bg">
+                        <div id="sticky-header">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 header-bg hidden-xs">
+                                    <div class="main-menu menu-color">
+                                        <nav>
+                                            <ul id="nav">
+                                                <li class="active">
+                                                    <a class="clr-wight" href="default.aspx">Home</a>
+                                                    <ul>
+                                                        <li><a class="clr-wight" href="default.aspx">About</a></li>
+                                                        <li><a class="clr-wight" href="default.aspx">Blog</a></li>
+                                                    </ul>
+                                                </li>
+                                             
+                                                 <li>
+                                                    <a class="clr-wight" href="#">About Us</a>
+                                                    <ul>
+                                                        <li><a class="clr-wight" href="founders.aspx">FOUNDER</a></li>
+                                                        <li><a class="clr-wight" href="md_message.aspx">MD MESSAGE</a></li>
+                                                         <li><a class="clr-wight" href="president_message.aspx">PRESIDENT MESSAGE</a></li>
+                                                        <li><a class="clr-wight" href="discipline.aspx">DISCIPLINE</a></li>
+                                                         <li><a class="clr-wight" href="academic_session.aspx">ACADEMIC SESSION</a></li>
+                                                        <li><a class="clr-wight" href="co_curricular.aspx">CO-CURRICULAR ACTIVITIES</a></li>
+                                                         <li><a class="clr-wight" href="parent_teacher_meeting.aspx">PARENT TEACHER MEETING</a></li>
+                                                        <li><a class="clr-wight" href="news_archive.aspx">NEWS & EVENTS</a></li>
+                                                         <li><a class="clr-wight" href="branches.aspx">BRANCHES</a></li>
+                                                    </ul>
+                                                </li>
+
+                                              <%--  <li><a class="clr-wight" href="default.aspx">Infrastructure</a></li>--%>
+                                                 <li>
+                                                    <a class="clr-wight" href="#">Infrastructure</a>
+                                                    <ul>
+                                                        <li><a class="clr-wight" href="class.aspx">CLASS ROOM</a></li>
+                                                        <li><a class="clr-wight" href="computer_lab.aspx">COMPUTER LAB</a></li>
+                                                         <li><a class="clr-wight" href="science_lab.aspx">SCIENCE LAB</a></li>
+                                                        <li><a class="clr-wight" href="maths_lab.aspx">MATHS LAB</a></li>
+                                                         <li><a class="clr-wight" href="library.aspx">LIBRARY</a></li>
+                                                        <li><a class="clr-wight" href="activity_room.aspx">ACTIVITY ROOM</a></li>
+                                                         <li><a class="clr-wight" href="music_room.aspx">MUSIC ROOM</a></li>
+                                                        <li><a class="clr-wight" href="smart_classes.aspx">SMART CLASS</a></li>
+                                                         <li><a class="clr-wight" href="transportation.aspx">TRANSPORTATION</a></li>
+                                                        <li><a class="clr-wight" href="safety_security.aspx">SAFETY & SECURITY</a></li>
+                                                    </ul>
+                                                </li>
+
+                                                <li >
+                                                    <a class="clr-wight" href="">Uniform</a>
+                                                    <ul>
+                                                        <li><a class="clr-wight" href="dress_summer.aspx">Dress Summer</a></li>
+                                                        <li><a class="clr-wight" href="dress_winter.aspx">WINTER UNIFORM</a></li>
+                                                    </ul>
+                                                </li>
+                                                 <li>
+                                                    <a class="clr-wight" href="#">Addmission</a>
+                                                    <ul>
+                                                        <li><a class="clr-wight" href="admission_procedure.aspx">ADMISSION PROCEDURE</a></li>
+                                                        <li><a class="clr-wight" href="general_rules.aspx">GENERAL RULES</a></li>
+                                                         <li><a class="clr-wight" href="exam.aspx">EXAMINATION RULES</a></li>
+                                                        <li><a class="clr-wight" href="fee_structure.aspx">FEE STRUCTURE</a></li>
+                                                         <li><a class="clr-wight" href="#">DOWNLOAD PROSPECTUS</a></li>
+                                                    
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a class="clr-wight" href="#">Student</a>
+                                                    <ul>
+                                                        <li><a class="clr-wight" href="toppers.aspx">TOPPERS</a></li>
+                                                        <li><a class="clr-wight" href="exam_schedule.aspx">EXAM SCHEDULE</a></li>
+                                                         <li><a class="clr-wight" href="holiday_home.aspx">HOLIDAY HOMEWORK</a></li>
+                                                        <li><a class="clr-wight" href="testimonials.aspx">TESTIMONIALS</a></li>
+                                                         <li><a class="clr-wight" href="alumni_registration.aspx">ALUMNI REGISTRATION</a></li>
+                                                        <li><a class="clr-wight" href="tc.aspx">DOWNLOAD TC</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="clr-wight" href="downloads.aspx">Downloads</a></li>
+                                            
+                                                 <li>
+                                                    <a class="clr-wight" href="#">Gallery</a>
+                                                    <ul>
+                                                        <li><a class="clr-wight" href="photo-gallery.aspx">PHOTO GALLERY</a></li>
+                                                        <li><a class="clr-wight" href="video-gallery.aspx">VIDEO GALLERY</a></li>
+                                                         <li><a class="clr-wight" href="media-gallery.aspx">MEDIA GALLERY</a></li>
+                                                    </ul>
+                                                </li>
+
+                                            
+                                                 <li>
+                                                    <a class="clr-wight" href="#">Enquiry</a>
+                                                    <ul>
+                                                        <li><a class="clr-wight" href="enquiry_admission.aspx">ADMISSION ENQUIRY</a></li>
+                                                        <li><a class="clr-wight" href="enquiry_general.aspx">GENERAL ENQUIRY</a></li>
+                                                    </ul>
+                                                </li>
+                                         
+                                                 <li>
+                                                    <a class="clr-wight" href="#">Contact Us</a>
+                                                    <ul>
+                                                        <li><a class="clr-wight" href="address.aspx">Address</a></li>
+                                                        <li><a class="clr-wight" href="grievances.aspx">GRIEVANCES</a></li>
+                                                         <li><a class="clr-wight" href="feedback.aspx">FEEDBACK</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="clr-wight" href="CAREER.aspx">CAREER</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MOBILE-MENU-AREA START -->
+                    <div class="mobile-menu-area">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="mobile-area">
+                                        <div class="mobile-menu">
+                                            <nav id="mobile-nav">
+                                                <ul>
+                                                    <li>
+                                                        <a class="clr-wight" href="default.aspx">Home</a>
+                                                    </li>
+                                                    <li><a class="clr-wight" href="default.aspx">About Us</a></li>
+                                                    <li><a class="clr-wight" href="default.aspx">Infrastructure</a></li>
+                                                    <li><a class="clr-wight" href="default.aspx">Uniform</a></li>
+                                                    <li><a class="clr-wight" href="default.aspx">Addmission</a></li>
+                                                    <li>
+                                                        <a class="clr-wight" href="default.aspx">Student</a>
+                                                        <ul>
+                                                            <li><a class="clr-wight" href="default.aspx">About</a></li>
+                                                            <li><a class="clr-wight" href="default.aspx">Blog</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a class="clr-wight" href="default.aspx">Downloads</a></li>
+                                                    <li><a class="clr-wight" href="default.aspx">Gallery</a></li>
+                                                    <li><a class="clr-wight" href="default.aspx">Enquiry</a></li>
+                                                    <li><a class="clr-wight" href="default.aspx">Contact Us</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- MOBILE-MENU-AREA END  -->
+
+
+                    <!-- Header Menu Area End -->
+                </header>
+                
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                   
+                </asp:ContentPlaceHolder>
+
+
+                <!-- Start footer area -->
+                <footer class="footer-area ptb-30 black-half-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 hidden-sm hidden-xs">
+                                <div class="footer-menu pl-60">
+                                    <h6>QUICK LINKS</h6>
+                                    <div class="quick-link">
+                                        <ul>
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Team</a></li>
+                                            <li><a href="#">Services</a></li>
+                                            <li><a href="#">Portfolio</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 hidden-sm hidden-xs">
+                                <div class="footer-menu pl-60">
+                                    <h6>NAVIGATION</h6>
+                                    <div class="quick-link">
+                                        <ul>
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Team</a></li>
+                                            <li><a href="#">Services</a></li>
+                                            <li><a href="#">Portfolio</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 hidden-sm hidden-xs">
+                                <div class="footer-menu pl-60">
+                                    <h6>SPECIAL</h6>
+                                    <div class="quick-link">
+                                        <ul>
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Team</a></li>
+                                            <li><a href="#">Services</a></li>
+                                            <li><a href="#">Portfolio</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4  res-pb-xs-30">
+                                <div class="footer-menu text-white">
+                                    <h6>Contact us</h6>
+                                    <div class="contact-details text-white">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="zmdi zmdi-pin"></i></a>
+                                                <p>House No 08, Road No 08,Din Bari, Dhaka, Bangladesh</p>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="zmdi zmdi-email"></i></a>
+                                                <p>Username@gmail.com Damo@gmail.com</p>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="zmdi zmdi-phone"></i></a>
+                                                <p>(+660 256 24857)(+660 256 24857)</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </footer>
+                <!-- End footer area -->
+                <!-- Footer Bottom Area Start -->
+                <div class="footer-bottom ptb-20 black-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="footer-copyright  text-white">
+                                    <p>©<a href="#" class="theame-color"> HasTech </a>2016. All Rights Reserved.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="footer-copyright pull-right text-white">
+                                    <p>Powered by <a  class="theame-color" href="http://adventusindia.in/">Adventus</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Bottom Area End -->
+
+            </div>
+        </div>
+    </form>
+    <!-- jquery latest version -->
+    <script src="../js/website_js/jquery-1.12.4.min.js"></script>
+    <!-- Bootstrap framework js -->
+    <script src="../js/website_js/bootstrap.min.js"></script>
+    <!-- All js plugins included in this file. -->
+    <script src="../js/website_js/plugins.js"></script>
+    <!-- Nivo Slider -->
+    <script src="../js/website_js/jquery.nivo.slider.pack.js"></script>
+    <!-- Magnific Popup -->
+    <script src="../js/website_js/jquery.magnific-popup.min.js"></script>
+    <!-- Isotope Css -->
+    <script src="../js/website_js/isotope.pkgd.min.js"></script>
+    <!-- Venobox Css -->
+    <script src="../js/website_js/venobox.min.js"></script>
+    <!-- Style Customizer JS -->
+    <script src="../js/website_js/style-customizer.js"></script>
+    <!-- ajax mail js  -->
+    <script src="../js/website_js/ajax-mail.js"></script>
+    <!-- mail Chimp  -->
+    <script src="../js/website_js/jquery.ajaxchimp.min.js"></script>
+    <!-- Google Map js -->
+
+
+    <!-- Owl Carosel Js -->
+    <script src="../js/website_js/owl.carousel.min.js"></script>
+    <!-- Mean Menu js -->
+    <script src="../js/website_js/jquery.meanmenu.js"></script>
+    <!-- Imageloaded js -->
+    <script src="../js/website_js/imagesloaded.pkgd.min.js"></script>
+    <!-- Counter Up -->
+    <script src="../js/website_js/jquery.counterup.min.js"></script>
+    <!-- Waypoints js -->
+    <script src="../js/website_js/jquery.waypoints.min.js"></script>
+    <!-- Main js file that contents all jQuery plugins activation. -->
+    <script src="../js/website_js/main.js"></script>
+</body>
+</html>

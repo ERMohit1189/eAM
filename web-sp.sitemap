@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="sp/sp-dashboard.aspx" title="Dashboard"  description="Dashboard">
+      <siteMapNode url="11/NewsReport.aspx" title="Bulletin Board"/>
+      <siteMapNode url="Planner.aspx" title="Planner"/>
+      <siteMapNode url="11/PlannerReport.aspx" title="Planner"/>
+      <siteMapNode url="profile.aspx" title="Profile"/>
+      <siteMapNode url="sp/ChangePassword.aspx" title="Change Password"/>
+      <siteMapNode url="sp/MonthwiseStudentAttendenceReport.aspx" title="Attendance Report"/>
+      <siteMapNode url="11/G1/ParticularStudentMarksPG.aspx" title="Exam Report"/>
+      <siteMapNode url="11/G2/ParticularStudentMarksNUR1toPrep.aspx" title="Exam Report"/>
+      <siteMapNode url="11/G3/ParticularStudentMarksItoV_1617.aspx" title="Exam Report"/>
+      <siteMapNode url="11/G4/ParticularStudentMarksVItoVIII_1617.aspx" title="Exam Report"/>
+      <siteMapNode url="11/G5/ParticularStudentMarksIXtoX_1617.aspx" title="Exam Report"/>
+      <siteMapNode url="11/G6/ParticularStudentMarksXI_1617.aspx" title="Exam Report"/>
+      <siteMapNode url="11/G7/ParticularStudentMarksXII_1617.aspx" title="Exam Report"/>
+
+
+      <siteMapNode url="sp/stdPaymentHistory.aspx" title="Fee Deposit History"/>
+      <siteMapNode url="sp/HomeWorkReportText.aspx" title="Homework"/>
+      <siteMapNode url="sp/ExamScheduleReport.aspx" title="Exam Schedule"/>
+      <siteMapNode url="sp/SyllabusReport.aspx" title="Syllabus"/>
+       <siteMapNode url="sp/Circular.aspx" title="Circular"/>
+      <siteMapNode url="sp/Assignment.aspx" title="Assignment"/>
+       <siteMapNode url="sp/Downloads.aspx" title="Downloads"/>
+      <siteMapNode url="sp/Library.aspx" title="Library"/>
+      <siteMapNode url="sp/TimeTable.aspx" title="Time Table"/>
+      <siteMapNode url="11/Conversation.aspx" title="Conversation"/>
+      <siteMapNode url="2/CompositFeeDeposit_g.aspx" title="Fee Deposit"/>
+      <siteMapNode url="sp/HostelFeePayment.aspx" title="Hostel Fee Deposit"/>
+      <siteMapNode url="sp/UniformFeeDeposit.aspx" title="Uniform Fee Deposit"/>
+      <siteMapNode url="sp/ReportCard_ng.aspx" title="Report Card"/>
+
+
+      <siteMapNode url="11/G2/ReportCard_NURtoPREP_1718.aspx" title="Report Card"/>
+      <siteMapNode url="11/G3/ReportCard_ItoV_1718.aspx" title="Report Card"/>
+      <siteMapNode url="11/G4/ReportCard_VItoVIII_1718.aspx" title="Report Card"/>
+      <siteMapNode url="11/G5/ReportCard_IXtoX_1718.aspx" title="Report Card"/>
+      <siteMapNode url="11/G6/PrintReportCardXI_1718_New.aspx" title="Report Card"/>
+      <siteMapNode url="11/G7/PrintReportCardXII_1718_New.aspx" title="Report Card"/>
+
+      <siteMapNode url="14/ReportCard_NurtoPrep.aspx" title="Report Card (Nur to Prep)"/>
+      <siteMapNode url="14/ReportCard_ItoVIII.aspx" title="Report Card (I to VIII)"/>
+      <siteMapNode url="14/ReportCard_IXtoXII.aspx" title="Report Card (IX to XII)"/>
+      <siteMapNode url="11/ViewMarks.aspx" title="View Marks"/>
+      
+      
+      
+      
+      
+      
+      <siteMapNode url="sp/ClassActivityAlbum.aspx" title="Activity Album"/>
+
+      <siteMapNode url="sp/ClassActivity.aspx" title="Activity"/>
+      <siteMapNode url="about.aspx" title="About"/>
+
+      <siteMapNode url="11/NewTicket.aspx" title="New Ticket"/>
+
+      <siteMapNode url="11/TicketReply.aspx" title="Ticket Reply"/>
+
+      <siteMapNode url="ChangePassword.aspx" title="Change Password"/>
+
+      <siteMapNode url="sp/HomeWorkReport.aspx" title="Homework"/>
+
+     
+      <siteMapNode url="" title="Admission Form">
+        <siteMapNode url="2/admtemplate1.aspx" title="Print Admission Form"/>
+        <siteMapNode url="2/admtemplate2.aspx" title="Print Admission Form"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Receipt">
+        <siteMapNode url="2/FeeReceiptGenerate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/TcReciept.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/TcReciept_duplicate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/miscellaneousFeesReciept.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/MiscellaneousFeesReciept_duplicate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/CCReciept.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/CCReciept_Duplicate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/OtherFeesReciept.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/OtherFeesReciept_duplicate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/OtherFeeReciept.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/OtherFeeReciept_duplicate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/pafReciept_duplicate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/pafReciept.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/StudentRecipetForConvence.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/FeeReceiptAllDuplicate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/FeeReceiptAll.aspx" title="Print Receipt"/>
+
+      </siteMapNode>
+    </siteMapNode> 
+</siteMap>

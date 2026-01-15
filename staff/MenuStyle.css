@@ -1,0 +1,124 @@
+﻿/* ReSharper disable once Html.TagNotResolved */
+CampusMenu .AspNet-Menu-Vertical {
+    z-index:300;
+    left:50px;
+    position:relative;
+    top:3em;
+}
+
+.CampusMenu .AspNet-Menu-Vertical UL.AspNet-Menu {
+    width:15em;
+}
+
+.CampusMenu UL.AspNet-Menu UL {
+    z-index:400;
+    left:8.9em;
+    width:auto;
+    top:-1em;
+}
+
+.CampusMenu UL.AspNet-Menu UL UL {
+    left:10.4em;
+    width:11.5em;
+}
+
+.CampusMenu UL.AspNet-Menu LI A {
+    border:1px solid #ccc;
+    background:url(ActivearrowRight.gif) no-repeat right center;
+    color:#000;
+    padding:4px 0 4px 4px;
+}
+
+.CampusMenu UL.AspNet-Menu LI SPAN {
+    border:1px solid #ccc;
+    background:url(ActivearrowRight.gif) no-repeat right center;
+    color:#000;
+    padding:4px 2px 4px 8px;
+}
+
+.CampusMenu UL.AspNet-Menu LI A IMG {
+    vertical-align:middle;
+    border-style:none;
+}
+
+.CampusMenu UL.AspNet-Menu LI A:hover {
+    background:url(bgstrip.jpg) repeat-x url(arrowRight.gif) no-repeat right center;
+    border:1px solid #979797;
+}
+
+.CampusMenu UL.AspNet-Menu LI SPAN.Asp-Menu-Hover {
+    background:url(bgstrip.jpg) repeat-x url(arrowRight.gif) no-repeat right center;
+}
+
+.CampusMenu UL.AspNet-Menu LI.AspNet-Menu-Leaf A:hover {
+    background:url(bgstrip.jpg) repeat-x right center;
+    color:#000;
+}
+
+.CampusMenu .AspNet-Menu-Horizontal {
+    z-index:300;
+    left:0;
+    position:relative;
+    top:0;
+}
+
+.CampusMenu .AspNet-Menu-Horizontal UL.AspNet-Menu {
+    width:auto;
+}
+
+.CampusMenu .AspNet-Menu-Horizontal UL.AspNet-Menu LI {
+    width:100px;
+    text-align:left;
+    font-size:12px;
+    font-family:'Segoe UI', Sans-Serif;
+    color:#787A7C;
+    text-decoration:none;
+}
+
+.CampusMenu .AspNet-Menu-Horizontal UL.AspNet-Menu UL {
+    left:-1px;
+    width:13.5em;
+    top:100%;
+}
+
+.CampusMenu .AspNet-Menu-Horizontal UL.AspNet-Menu UL UL {
+    top:18px;
+    width:13.5em;
+    left:1px;
+}
+
+.CampusMenu .AspNet-Menu-Horizontal UL.AspNet-Menu LI UL LI UL {
+    margin:-1.4em 0 0 13.4em;
+}
+
+.CampusMenu .AspNet-Menu-Horizontal UL.AspNet-Menu UL LI {
+    width:13.5em;
+    text-align:left;
+}
+
+.CampusMenu .AspNet-Menu-Horizontal UL.AspNet-Menu UL UL LI {
+    width:13.5em;
+}
+
+.MenuGlobal {
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    position:relative;
+    margin-top:2px;
+}
+
+.CampusMenu UL,.CampusMenu UL.AspNet-Menu LI {
+    background:url(bgstrip.jpg) repeat-x;
+}
+
+.CampusMenu UL.AspNet-Menu LI.AspNet-Menu-Leaf A,.CampusMenu UL.AspNet-Menu LI.AspNet-Menu-Leaf SPAN {
+    background-image:none;
+}
+
+.CampusMenu UL.AspNet-Menu LI:hover A,.CampusMenu UL.AspNet-Menu LI:hover SPAN,.CampusMenu UL.AspNet-Menu LI.AspNet-Menu-Hover A,.CampusMenu UL.AspNet-Menu LI.AspNet-Menu-Hover SPAN,.CampusMenu UL.AspNet-Menu LI:hover LI:hover A,.CampusMenu UL.AspNet-Menu LI:hover LI:hover SPAN,.CampusMenu UL.AspNet-Menu LI.AspNet-Menu-Hover LI.AspNet-Menu-Hover A,.CampusMenu UL.AspNet-Menu LI.AspNet-Menu-Hover LI.AspNet-Menu-Hover SPAN,.CampusMenu UL.AspNet-Menu LI:hover LI:hover UL A:hover,.CampusMenu UL.AspNet-Menu LI:hover LI:hover UL SPAN.Asp-Menu-Hover,.CampusMenu UL.AspNet-Menu LI.AspNet-Menu-Hover LI.AspNet-Menu-Hover UL A:hover,.CampusMenu UL.AspNet-Menu LI.AspNet-Menu-Hover LI.AspNet-Menu-Hover UL SPAN.Asp-Menu-Hover,.CampusMenu UL.AspNet-Menu LI:hover UL A,.CampusMenu UL.AspNet-Menu LI:hover UL SPAN,.CampusMenu UL.AspNet-Menu LI.AspNet-Menu-Hover UL A,.CampusMenu UL.AspNet-Menu LI.AspNet-Menu-Hover UL SPAN,.CampusMenu UL.AspNet-Menu LI:hover LI:hover UL A,.CampusMenu UL.AspNet-Menu LI:hover LI:hover UL SPAN,.CampusMenu UL.AspNet-Menu LI.AspNet-Menu-Hover LI.AspNet-Menu-Hover UL A,.CampusMenu UL.AspNet-Menu LI.AspNet-Menu-Hover LI.AspNet-Menu-Hover UL SPAN {
+    color:#000;
+}
+
+.Divlft,.Divrgt {
+    float:left;
+}

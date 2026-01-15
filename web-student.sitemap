@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="13/studashboard.aspx" title="Dashboard"  description="">
+    <siteMapNode url="11/NewsReport.aspx" title="Bulletin Board"/>
+    <siteMapNode url="profile.aspx" title="Profile"/>
+    <siteMapNode url="13/ExamResult.aspx" title="Test Results"/>
+    <siteMapNode url="13/exampreview.aspx" title="Online Test"/>
+    <siteMapNode url="13/Result.aspx" title="Test Result"/>
+    <siteMapNode url="13/ChangePassword.aspx" title="Change Password"/>
+    <siteMapNode url="11/PlannerReport.aspx" title="Planner"/>
+    <siteMapNode url="Planner.aspx" title="Planner"/>
+    <siteMapNode url="13/StartTest.aspx" title="Start Test"/>
+
+    <siteMapNode url="13/ExamScheduleReport.aspx" title="Exam Schedule"/>
+    <siteMapNode url="13/SyllabusReport.aspx" title="Syllabus"/>
+    <siteMapNode url="13/Circular.aspx" title="Circular"/>
+    <siteMapNode url="13/Assignment.aspx" title="Assignment"/>
+    <siteMapNode url="13/Downloads.aspx" title="Downloads"/>
+    <siteMapNode url="13/Library.aspx" title="Library"/>
+    <siteMapNode url="13/ClassActivityAlbum.aspx" title="Activity Album"/>
+    <siteMapNode url="13/ClassActivity.aspx" title="Activity"/>
+    <siteMapNode url="ChangePassword.aspx" title="Change Password"/>
+    <siteMapNode url="13/HomeWorkReport.aspx" title="Homework"/>
+    <siteMapNode url="13/MonthwiseStudentAttendenceReport.aspx" title="Attendance Report"/>
+    <siteMapNode url="13/Subjectwisereport.aspx" title="Term wise Result"/>
+
+  </siteMapNode>
+</siteMap>

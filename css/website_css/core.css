@@ -1,0 +1,48 @@
+
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url("plugins/animate.css");
+@import url("plugins/slick.css");
+@import url("plugins/jquery-ui.min.css");
+@import url("shortcode/default.css");
+.menu-color i, .menu-color ul, .menu-color span{
+    color: #fff;
+}
+.theame-color h1::after, .theame-color h4::after, .theame-bg::after,.theame-bg::before, .theame-bg, #scrollUp {
+     background: #ad0606
+} 
+.mean-bar span{
+    background:#ad0606;
+}
+
+.theame-color{
+    color: #ad0606;
+}
+.header-bg, .main-menu ul li > ul{
+       background: #171717;
+}
+.main-menu ul li.active,.main-menu ul li:hover{background:#ad0606;}
+.clr-light{
+    color:#ccc;
+}
+.clr-wight{
+    color:#fff;
+}
+.specialty-single:hover .icon-titel h6,.ourservice-single:hover .srvc-content h6{color:#ad0606;}
+.specialty-single:hover .icon-titel i,.ourservice-single:hover .srvc-icon a i{color:#fff;}
+.specialty-single:hover .icon-titel i::after,.social-rotate ul li a:hover,.ourservice-single:hover .srvc-icon a{background:#ad0606;border-color:#ad0606;}
+.hvr-icon > h6 {
+    color: #ad0606;
+}
+.mean-container .mean-nav ul li {
+    background: #171717 none repeat scroll 0 0;
+}
+.mean-container .mean-nav ul li a:hover {
+  background: #ad0606 none repeat scroll 0 0;
+  color: #fff;
+}
+.mean-container .mean-nav ul li a.mean-expand:hover {
+  background: #ad0606;
+}
+.quick-link ul li:hover a{color:#fff;}
+.quick-link ul li:hover a::after{color:#ccc;background: #ccc;}

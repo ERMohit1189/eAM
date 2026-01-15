@@ -1,0 +1,1119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+
+  <siteMapNode url="dashboard-main.aspx" title="Dashboard"  description="">
+	  
+
+	  <siteMapNode url="your_account.aspx" title="Your Account"/>
+	  <siteMapNode url="profile.aspx" title="Profile"/>
+	  <siteMapNode url="ChangePassword.aspx" title="Change Password"/>
+	  <siteMapNode url="suggestanidea.aspx" title="Suggest an Idea"/>
+
+
+	  <siteMapNode url="11/NewsReport.aspx" title="Bulletin Board"/>
+	  <siteMapNode url="userguide.aspx" title="User Guide"/>
+	  <siteMapNode url="help-block-pop-up.aspx" title="How to allow Pop-ups"/>		  	  
+
+	  <siteMapNode url="ap/Admission_Details.aspx" title="Admission Details"/>
+	  <siteMapNode url="submitticket.aspx" title="Submit Ticket"/>
+
+	  <siteMapNode url="ap/ChangePassword.aspx" title="Change Password"/>
+	  <siteMapNode url="about.aspx" title="About"/>
+
+	  <siteMapNode url="8/BirthdayReport.aspx" title="Birthdays and Anniversaries"/>
+	  <siteMapNode url="2/Gpaf.aspx" title="Admission Form"/>
+
+    <siteMapNode url="" title="Administration">
+      <siteMapNode url="" title="Master">
+        <siteMapNode url="admin/PrerequisiteAdmin.aspx" title="Prerequisite"/>
+        <siteMapNode url="admin/CollegeMaster.aspx" title="Institute"/>
+        <siteMapNode url="admin/religion_master.aspx" title="Religion"/>
+        <siteMapNode url="admin/category_master.aspx" title="Category"/>
+        <siteMapNode url="admin/blood_group_master.aspx" title="Blood Group"/>
+        <siteMapNode url="admin/city_master.aspx" title="City"/>
+        <siteMapNode url="admin/state_master.aspx" title="State"/>
+        <siteMapNode url="admin/country_master.aspx" title="Country"/>
+        <siteMapNode url="admin/HeaderTemplate.aspx" title="Header Templates"/>
+        <siteMapNode url="admin/PaymentGateways.aspx" title="Payment Gateway Setting" />
+        <siteMapNode url="Admin/DefaultValues_Control.aspx" title="Default Values"  description="" />
+        <siteMapNode url="Admin/Settexttransformation.aspx" title="Text Transformation"  description="" />
+        
+      </siteMapNode>
+      <siteMapNode url="" title="Reports">
+        <siteMapNode url="admin/AllGeneralEnquiryReport.aspx" title="General Enquiry"/>
+		  <siteMapNode url="11/PlannerReport.aspx" title="Planner"/>		 
+        <siteMapNode url="admin/VisitorReport.aspx" title="Visitors Gate Pass"/>
+        <siteMapNode url="admin/GuardianLoginDetailsPrint.aspx" title="Guardian Login Credentials"/>
+        <siteMapNode url="admin/StudentLoginDetailsPrint.aspx" title="Student Login Credentials"/>
+        <siteMapNode url="admin/Visitorpageprint.aspx" title="Visitor Gate Pass"/>
+		  <siteMapNode url="Admin/SmsReport.aspx" title="SMS Report"  description="" />
+      </siteMapNode>
+      <siteMapNode url="" title="User Management"  description="">
+        <siteMapNode url="Admin/menu_accessability.aspx" title="Admin Privilege"  description="" />
+		  <siteMapNode url="11/NewAdminCreate.aspx" title="Admin Login Details"/>
+		  <siteMapNode url="Admin/staffmenuaccessability.aspx" title="Staff Privilege"  description="" />
+        <siteMapNode url="admin/StaffLoginDetails.aspx" title="Staff Login Details"/>
+
+        <siteMapNode url="admin/GuardianLoginDetails.aspx" title="Guardian Login Details"/>
+		  <siteMapNode url="admin/GenrateGuardianPassword.aspx" title="Generate Guardian Login"/>
+		  <siteMapNode url="admin/StudentLoginDetails.aspx" title="Student Login Details"/>
+        <siteMapNode url="admin/GenrateStudentPassword.aspx" title="Generate Student Login"/>
+
+      </siteMapNode>
+      <siteMapNode url="" title="Planner Management"  description="">
+        <siteMapNode url="admin/PlannerType.aspx" title="Planner Master"/>
+        <siteMapNode url="admin/PlannerMaster.aspx" title="Planner Entry"/>
+      </siteMapNode>
+		<siteMapNode url="" title="Uploads"  description="">
+			<siteMapNode url="11/uploadSyllabus.aspx" title="Syllabus"/>
+			<siteMapNode url="11/HomeWorkUpload.aspx" title="Homework"/>
+			<siteMapNode url="11/uploadExamSchedule.aspx" title="Exam Schedule"/>
+			<siteMapNode url="11/uploadAssignment.aspx" title="Assignment"/>
+			<siteMapNode url="11/uploadDownloads.aspx" title="Downloads"/>
+			<siteMapNode url="11/uploadCircular.aspx" title="Circular"/>
+		</siteMapNode>
+		<siteMapNode url="" title="Visitors Gate Pass"  description="">
+			<siteMapNode url="admin/Visitorpage.aspx" title="Check In"/>
+			<siteMapNode url="admin/VisitorOut.aspx" title="Check Out"/>
+			<siteMapNode url="admin/addmobileno.aspx" title="Add Mobile No."/>
+			<siteMapNode url="admin/AddName.aspx" title="Add Name"/>
+		</siteMapNode>
+		<siteMapNode url="" title="SMS and WhatsApp Setting"  description="">
+			<siteMapNode url="Admin/SmsPanelSetting.aspx" title="SMS API Setting"  description="" />
+			<siteMapNode url="Admin/SmsEmail_Services.aspx" title="SMS Notification"  description="" />
+			<siteMapNode url="1/QuickSMSTemplets.aspx" title="Quick SMS Templates"/>
+		</siteMapNode>
+		<siteMapNode url="" title="Email Setting"  description="">
+			<siteMapNode url="Admin/EmailIdPanelSetting.aspx" title="E-mail Sender Setting"  description="" />
+			<siteMapNode url="Admin/Email_Services.aspx" title="E-mail Notification"  description="" />
+		</siteMapNode>
+		<siteMapNode url="" title="Biometric Device Setting"  description="">
+			<siteMapNode url="Admin/PunchMachineConfiguration.aspx" title="Manage Biometric Devices"  description="" />
+			<siteMapNode url="8/EmployeeAttendanceUsinPunch.aspx" title="Update Punch wise Attendance"/>
+			<siteMapNode url="8/PunchDownloadTime.aspx" title="Punch Download Time (For Biometric Devices)"/>
+		</siteMapNode>		
+        <siteMapNode url="11/News.aspx" title="Bulletin Board"/>
+		<siteMapNode url="admin/general_enquiry.aspx" title="General Enquiry"/>
+		<siteMapNode url="admin/GenralMessage.aspx" title="Customized SMS"/>
+		<siteMapNode url="admin/database_backup.aspx" title="Database Backup"/>
+		
+      <siteMapNode url="admin/Miscupload.aspx" title="Upload Documents"/>
+
+
+
+    </siteMapNode>
+	  
+    <siteMapNode url="" title="Student">
+      <siteMapNode url="" title="Master">
+        <siteMapNode url="1/session_master.aspx" title="Academic Session"/>
+        <siteMapNode url="1/BoardMaster.aspx" title="Board/ University"/>
+        <siteMapNode url="1/CourseMaster.aspx" title="Course"/>
+        <siteMapNode url="1/class_master.aspx" title="Class"/>
+        <siteMapNode url="1/StreamMaster.aspx" title="Stream"/>
+        <siteMapNode url="1/GroupMaster.aspx" title="Group"/>
+        <siteMapNode url="1/section_master.aspx" title="Section"/>
+        <siteMapNode url="1/Medium.aspx" title="Medium"/>
+        <siteMapNode url="1/guardian_occupation_master.aspx" title="Guardian Occupation"/>
+        <siteMapNode url="1/CreateDocumentName.aspx" title="Add Document Name"/>
+        <siteMapNode url="1/house_master.aspx" title="House"/>
+        <siteMapNode url="1/house_form.aspx" title="House Registration"/>
+        <siteMapNode url="1/AttendanceMaster.aspx" title="Attendance Abbreviation"/>
+        <siteMapNode url="1/subject_Names.aspx" title="Subject for Attendance"/>
+        <siteMapNode url="1/subject_allotment.aspx" title="Subject Allotment for Attendance"/>
+        <siteMapNode url="1/EntranceExamMaster.aspx" title="Entrance Exam"/>
+        <siteMapNode url="1/sr-no-management.aspx" title="S.R. No. Initialization"/>
+        <siteMapNode url="1/ShiftForStudent.aspx" title="Shift for Student Attendance"/>
+        <siteMapNode url="1/ShiftMapping.aspx" title="Shift Mapping"/>
+        <siteMapNode url="admin/EducationACT.aspx" title="Education Act"/>
+        <siteMapNode url="admin/AutometedSRNO.aspx" title="S.R. No. Initialization"/>
+        <siteMapNode url="1/EnquiryReference.aspx" title="Enquiry Reference"/>
+
+      </siteMapNode>
+      <siteMapNode url="" title="Reports">
+        <siteMapNode url="1/AllAdmissionReport.aspx" title="Admission Enquiry"/>
+        <siteMapNode url="1/LisOfAllStudent.aspx" title="List of Students"/>
+        <siteMapNode url="1/SiblingReport.aspx" title="List of Siblings"/>
+		<siteMapNode url="2/TCCollectionReportInStu.aspx" title="Transfer Certificate"/>
+		<siteMapNode url="11/StudenceAttendanceDayWiseReport.aspx" title="Date wise Attendance"/>
+        <siteMapNode url="1/subjectwise_attendance_report.aspx" title="Subject wise Attendance"/>
+        <siteMapNode url="1/MonthwiseStudentAttendenceReport_New.aspx" title="Month wise Attendance"/>
+        <siteMapNode url="2/Student_AttendanceTillDate.aspx" title="Till Date Attendance"/>
+		<siteMapNode url="1/StdPunchReport.aspx" title="Daily Punch Report"/>		  
+        <siteMapNode url="11/Remark_Studen_Report.aspx" title="Review Report"/>
+		<siteMapNode url="1/GatePassReport.aspx" title="Gate Pass"/>		  
+        <siteMapNode url="1/student_information.aspx" title="Student Information At A Glance"/>
+        <siteMapNode url="11/StudentsPhotoReport.aspx" title="Photo Report"/>
+		  <siteMapNode url="1/StudentDocsReport.aspx" title="Document Report"/>
+		  <siteMapNode url="1/EnquiryVsAdmission.aspx" title="Enquiry Vs. Admission"/>		  
+		  <siteMapNode url="1/StudentPreview.aspx" title="Print Registration Form"/>
+		  <siteMapNode url="11/AttendanceReport.aspx" title="Consolidated Attendance"/>
+
+      </siteMapNode>
+      <siteMapNode url="" title="Student Management">
+        <siteMapNode url="1/StudentQuickRegistration.aspx" title="Student Quick Registration"/>
+        <siteMapNode url="1/student_registration.aspx" title="Student Registration"/>
+		  <siteMapNode url="11/update_student_registration.aspx" title="Update Registration"/>
+        <siteMapNode url="1/admission_withdrawal.aspx" title="Withdraw Student"/>
+        <siteMapNode url="1/AddSibling.aspx" title="Add Sibling"/>
+		  <siteMapNode url="1/ClassTransfer.aspx" title="Class Transfer"/>
+		  <siteMapNode url="1/SectionTransfer.aspx" title="Section Transfer"/>
+        <siteMapNode url="1/StreamTransfer.aspx" title="Stream Transfer"/>
+		  <siteMapNode url="1/MediumTransfer.aspx" title="Medium Transfer"/>
+		  <siteMapNode url="1/AllStudentRecordUpdation.aspx" title="Roll No. Update"/>
+		  <siteMapNode url="1/application-for-withdrawal.aspx" title="Withdrawal Form"/>
+		  <siteMapNode url="1/student_registration_by_Excel.aspx" title="Bulk Registration by Excel"/>
+		  <siteMapNode url="1/StudentBarcode.aspx" title="Barcode Print"/>
+		  <siteMapNode url="1/StudentIdCard.aspx" title="ID Card"/>
+        <siteMapNode url="1/StudentIdCardNarmal.aspx" title="ID Card"/>
+		  <siteMapNode url="11/QuickUpdate.aspx" title="Quick Update"/>
+        <siteMapNode url="2/TransferCertificate.aspx" title="Transfer Certificate"/>
+        <siteMapNode url="2/EntranceDateAllotment.aspx" title="Entrance Test Approval"/>
+        <siteMapNode url="2/ProvisinalAdmissionForm.aspx" title="Provisional Form"/>
+        <siteMapNode url="2/ProvisionalFormPrint.aspx" title="Provisional Form Print"/>
+		<siteMapNode url="11/StudentRegView.aspx" title="Admission Form"/>		  
+      </siteMapNode>
+      <siteMapNode url="" title="Student Administration">
+        <siteMapNode url="1/Updatesrno.aspx" title="Change S.R. No."/>
+        <siteMapNode url="1/StudentDelete.aspx" title="Delete Registration"/>
+        <siteMapNode url="1/changeTypeOfAdmission.aspx" title="Change Type of Admission"/> 
+        <siteMapNode url="1/BlockStudent.aspx" title="Block Student for Fee"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Attendance Management">
+        <siteMapNode url="11/Student_AttendanceDayWise.aspx" title="Date wise Entry"/>
+        <siteMapNode url="11/Student_AttendanceDayWise_ng.aspx" title="Date wise Entry"/>
+        <siteMapNode url="1/subjectwise_attendance.aspx" title="Subject wise Attendance"/>
+        <siteMapNode url="1/StudentAttendanceDayWiseUpdate.aspx" title="Date wise Update"/>
+        <siteMapNode url="1/subjectwise_attendance_Update.aspx" title="Subject wise Update"/>
+		  <siteMapNode url="1/StdAttendanceAlert.aspx" title="Student Attendance Alert"/>		  
+      </siteMapNode>
+	    <siteMapNode url="" title="Attendance Administration">
+			<siteMapNode url="1/deleteattendance.aspx" title="Delete Attendance"/>
+			<siteMapNode url="1/AttendanceAlert.aspx" title="Attendance Alert"/>			
+		</siteMapNode>
+		<siteMapNode url="" title="Enquiry Management">
+			<siteMapNode url="1/admission_enquiry.aspx" title="Admission Enquiry"/>
+			<siteMapNode url="1/admissionFolowup.aspx" title="Admission Follow up"/>
+		</siteMapNode>
+      <siteMapNode url="" title="Student Promotion">
+        <siteMapNode url="1/bulkpromotion.aspx" title="Bulk Promotion"/>
+        <siteMapNode url="1/PromotionCancellation.aspx" title="Promotion Cancellation"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Activity Management">
+        <siteMapNode url="11/ClassWiseActivityAlbum.aspx" title="Activity Album"/>
+        <siteMapNode url="11/ClassWiseActivity.aspx" title="Activity Gallery"/>
+      </siteMapNode>
+		<siteMapNode url="" title="Review Management">
+			<siteMapNode url="11/Remark_Student.aspx" title="Submit Review"/>
+			<siteMapNode url="11/UpdateStudentRemark.aspx" title="Update Review"/>
+		</siteMapNode>
+		<siteMapNode url="1/GatePass.aspx" title="Gate Pass"/>
+		<siteMapNode url="1/PrintGetPass.aspx" title="Print Gate Pass"/>
+		<siteMapNode url="1/DuplicateGetPass.aspx" title="Print Duplicate Gate Pass"/>
+		
+		<siteMapNode url="1/Customized_Message.aspx" title="Customized SMS"/>
+		
+		<siteMapNode url="11/Conversation.aspx" title="Conversation"/>		
+
+      <siteMapNode url="" title="Pre Board">
+        <siteMapNode url="11/G5/PrintReportCardX_PreBoard.aspx" title="Pre Board X"/>
+        <siteMapNode url="11/G7/PrintReportCardXII_PreBoard.aspx" title="Pre Board XII"/>
+      </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="" title="Fee">
+      <siteMapNode url="" title="Master">
+        <siteMapNode url="2/FEEGroupMaster.aspx" title="Fee Category"/>
+		 <siteMapNode url="2/FeeInstallmentMaster.aspx" title="Fee Installment"/>		
+        <siteMapNode url="2/feeHeadMaster.aspx" title="Fee Head"/>
+		  <siteMapNode url="2/TutionFeeAllotment.aspx" title="Fee Allotment"/>		  
+        <siteMapNode url="2/OptionalFeeAllotment.aspx" title="Optional Fee Allotment"/>		  
+        <siteMapNode url="2/ManualDiscountHead.aspx" title="Manual Discount Head"/>
+        <siteMapNode url="2/finesetmaster.aspx" title="Fine (Late Fee)"/>
+		  <siteMapNode url="11/FeeCardInstructions.aspx" title="Fee Card Instructions"/>
+		  <siteMapNode url="2/AdmissionFormFeeMaster.aspx" title="Admission Form Fee"/>
+		  <siteMapNode url="2/TCFormFeeMaster.aspx" title="T.C. Form Fee"/>
+		  <siteMapNode url="2/CCFormFeeMaster.aspx" title="C.C. Form Fee"/>
+		  <siteMapNode url="2/OtherFeeHead.aspx" title="Other Fee Head"/>
+		  <siteMapNode url="2/additionalFeesHead.aspx" title="Additional Fee Head"/>
+		  <siteMapNode url="2/UniformFeeHead.aspx" title="Product Head"/>
+        <siteMapNode url="2/ReceiptSrNoMaster.aspx" title="Receipt No. Initialization"/>
+        <siteMapNode url="2/Templates.aspx" title="Templates"/>
+		  
+		  
+        <siteMapNode url="2/StudentReceiptGenerate.aspx" title="Fee Deposit Receipt"/>
+        <siteMapNode url="2/YearlyStudentReceiptGenerate.aspx" title="Yearly Fee Deposit Receipt"/>
+        <siteMapNode url="2/OtherFeesReciept_new.aspx" title="Other Fee Receipt"/>
+        <siteMapNode url="2/MiscellaneousFeeAllotment.aspx" title="Miscellaneous Fee Allotment"/>
+
+      </siteMapNode>
+      <siteMapNode url="" title="Reports">
+		  <siteMapNode url="2/Dcr.aspx" title="Daily Collection Report"/>
+		  <siteMapNode url="2/FeeCollectionReportReceiptwise.aspx" title="Fee Collection (Receipt wise)"/>
+		  <siteMapNode url="2/TuitionFeeReport.aspx" title="Tuition Fee Report"/>
+		  <siteMapNode url="2/TransportFeeReport.aspx" title="Transport Fee Report"/>
+		  <siteMapNode url="2/HostelFeeReport.aspx" title="Hostel Fee Report"/>
+		  <siteMapNode url="2/AdmissionFormCollectionRepo.aspx" title="Admission Form Fee Report"/>
+		  <siteMapNode url="2/TCCollectionReport.aspx" title="Transfer Certificate Fee Report"/>
+		  <siteMapNode url="2/CCCollectionReport.aspx" title="Character Certificate Fee Report"/>
+		  <siteMapNode url="2/OtherFeeCollection.aspx" title="Other Fee Report"/>		  
+		  <siteMapNode url="2/AdditionalFeeReport.aspx" title="Additional Fee Report"/>
+		  <siteMapNode url="2/UniformFeeDepositReport.aspx" title="Product Fee Report"/>
+		  <siteMapNode url="6/LIBBOOKFINE.aspx?=1" title="Library Book Fine Report"/>
+		  <siteMapNode url="2/CancelledReceiptReport.aspx" title="Cancelled Receipts"/>
+		  <siteMapNode url="2/TrasactionReport.aspx" title="Transaction Report"/>
+		  <siteMapNode url="2/DiscountReport.aspx" title="Discount Report"/>
+		  <siteMapNode url="2/DueDepositBalance.aspx" title="Due deposit Balance Report"/>
+		  <siteMapNode url="2/DueDepositBalance_Report.aspx" title="Due Deposit Balance"/>
+		  <siteMapNode url="2/FeeOverdueReport.aspx" title="Fee Overdue Report"/>
+		  <siteMapNode url="2/PrintFeeCard.aspx" title="Fee Card Print"/>
+		  <siteMapNode url="2/PrintFeeCardnew.aspx" title="Fee Card Print"/>
+		  <siteMapNode url="2/FeeChart.aspx" title="Fee Structure"/>
+		  <siteMapNode url="2/SerchReceiptNo.aspx" title="Search Receipt No."/>
+		  <siteMapNode url="2/DcrDesc.aspx" title="Daily Collection Report"/>
+		  <siteMapNode url="2/ArrearReport.aspx" title="Arrear Report"/>
+		  <siteMapNode url="2/OptionalFeeAllotmentReport.aspx" title="Optional Fee Allotment Report"/>
+
+
+        <siteMapNode url="2/MonthlyReport.aspx" title="Monthly Fee Report"/>
+        <siteMapNode url="2/MiscellaneousFeeReport.aspx" title="Miscellaneous Fee Report"/>
+        <siteMapNode url="2/TotalCollectionofFee.aspx" title="Total Fee Collection"/>
+        <siteMapNode url="2/OtherFeeReceipt.aspx" title="Other Fee Receipt"/>
+        <siteMapNode url="2/EveryStudentYearlyReportBalance.aspx" title="Balance List of Fee"/>
+        <siteMapNode url="2/FeeAllotedReport.aspx" title="Fee Alloted Report"/>
+        <siteMapNode url="2/CCprint.aspx" title="Character Certificate"/>
+        <siteMapNode url="2/MiscellaneousFeeCollection.aspx" title="Miscellaneous Fee Report"/>
+        <siteMapNode url="2/DayWiseCollection.aspx" title="Fee Collection (Monthly)"/>
+        <siteMapNode url="2/DeafulterListClassWise.aspx" title="Balance List of Arrears"/>
+        <siteMapNode url="2/OtherReportBalanceList.aspx" title="Balance List of Other Fee"/>
+        <siteMapNode url="2/BalanceListfoOtherFee.aspx" title="Balance List of Other Fee"/>
+        <siteMapNode url="2/ConcessionReport.aspx" title="Fee Concession Report"/>
+        <siteMapNode url="11/FeeReportofClassWiseAllStudent.aspx" title="Class Wise Fee Hostory"/>
+        <siteMapNode url="2/TotalCollectionofFeeArrier.aspx" title="Total Fee Collection Arrier"/>
+
+      </siteMapNode>
+
+      <siteMapNode url="" title="Receipt">
+        <siteMapNode url="2/AdditionalFeeReceipt.aspx" title="Additional Fee Receipt"/>
+        <siteMapNode url="2/AdditionalFeeReceipt_duplicate.aspx" title="Additional Fee Receipt"/>
+        <siteMapNode url="2/FeeReceiptGenerate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/TcReciept.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/TcReciept_duplicate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/miscellaneousFeesReciept.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/MiscellaneousFeesReciept_duplicate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/CCReciept.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/CCReciept_Duplicate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/OtherFeesReciept.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/OtherFeesReciept_duplicate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/OtherFeeReciept.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/OtherFeeReciept_duplicate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/pafReciept_duplicate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/pafReciept.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/StudentRecipetForConvence.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/FeeReceiptAllDuplicate.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/FeeReceiptAll.aspx" title="Print Receipt"/>
+        <siteMapNode url="2/FeeReceiptAllT2.aspx" title="Print Receipt"/>
+
+      </siteMapNode>
+
+      <siteMapNode url="" title="Fee Deposit">
+        <siteMapNode url="2/CompositFeeDeposit.aspx" title="Composite Fee"/>
+        <siteMapNode url="2/TCCollection.aspx" title="Transfer Certificate Fee"/>
+		  <siteMapNode url="2/CCCollection.aspx" title="Character Certificate Fee"/>
+		  <siteMapNode url="2/OtherFeeDeposit.aspx" title="Other Fee"/>
+        <siteMapNode url="2/additionalFeesDeposit.aspx" title="Additional Fee"/>
+        <siteMapNode url="2/UniformFeeDeposit.aspx" title="Product Fee"/>
+		  <siteMapNode url="2/paf.aspx" title="Admission Form Fee"/>
+		  
+		  <siteMapNode url="2/admtemplate1.aspx" title="Print Admission Form"/>
+		  <siteMapNode url="2/admtemplate2.aspx" title="Print Admission Form"/>
+		  
+      </siteMapNode>
+      <siteMapNode url="" title="Fee Administration">
+        <siteMapNode url="2/PermissionFeeDepoist.aspx" title="Fee Deposit Permission"/>
+        <siteMapNode url="2/ReceiptCancellation.aspx" title="Receipt Cancellation"/>
+        <siteMapNode url="2/ChangeFeeDepositDate.aspx" title="Receipt Date Change"/>
+      </siteMapNode>
+
+	<siteMapNode url="" title="Arrear Management">
+		<siteMapNode url="2/ArrearEntry.aspx" title="Arrear Entry"/>
+		<siteMapNode url="2/ArearEntryUpdate.aspx" title="Arrear Entry Update"/>
+	</siteMapNode>		
+
+      <siteMapNode url="" title="Discounts and Waivers">
+        <siteMapNode url="2/ManualDiscount.aspx" title="Manual Discount"/>
+        <siteMapNode url="2/SpecialDiscount.aspx" title="Special Discount"/>
+        <siteMapNode url="2/SiblingDiscount.aspx" title="Sibling Discount"/>
+        <siteMapNode url="2/CompleteFeeDiscount.aspx" title="Complete Fee Discount"/>
+
+      </siteMapNode>
+
+      <siteMapNode url="2/BalanceFeeReminder.aspx" title="Fee Overdue Reminder"/>
+      <siteMapNode url="2/TransactionClearance.aspx" title="Transaction Clearance"/>
+      
+      <siteMapNode url="2/TCICSE.aspx" title="T.C. Print"/>
+      <siteMapNode url="2/TC_UPBoard.aspx" title="T.C. Print"/>
+      <siteMapNode url="2/TCCBSE_Hindi.aspx" title="T.C. Print"/>
+      <siteMapNode url="2/TCCBSE_English.aspx" title="T.C. Print"/>
+    </siteMapNode>
+
+    <siteMapNode url="" title="Transport">
+      <siteMapNode url="" title="Master">
+        <siteMapNode url="3/VehicleType.aspx" title="Vehicle Type"/>
+        <siteMapNode url="3/fuel_type.aspx" title="Fuel Type"/>
+        <siteMapNode url="3/LocationMaster.aspx" title="Location Master"/>
+        <siteMapNode url="3/locationmapping.aspx" title="Location Mapping"/>
+		  
+        <siteMapNode url="3/VehicleRouteMaster.aspx" title="Route Master"/>		  
+        <siteMapNode url="3/VehicleDropLocationMaster.aspx" title="Drop Master"/>
+        <siteMapNode url="3/SetAmountForPickupDropPoint.aspx" title="Transport Fee Master"/>
+        <siteMapNode url="3/SetAmountForPickupDropPoint_ng.aspx" title="Transport Fee Master"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Reports">
+        <siteMapNode url="3/ListofStudentRoutWise.aspx" title="List of Students Route wise"/>
+		  <siteMapNode url="3/ListofAllDealers.aspx" title="List of Dealers"/>
+		  <siteMapNode url="3/ListofAllVehicles.aspx" title="List of Vehicles"/>
+
+		  <siteMapNode url="3/ClasswiseTransportAllotedStudentList.aspx" title="List of Transport Alloted Students"/>	  
+		  
+      </siteMapNode>
+
+      <siteMapNode url="3/ConveyanceAllotment.aspx" title="Conveyance Allotment"/>
+      <siteMapNode url="3/BulkConveyanceAllotment.aspx" title="Bulk Conveyance Allotment"/>
+      <siteMapNode url="3/TransportAlert.aspx" title="Transport Alert"/>
+		<siteMapNode url="3/Dealer_master.aspx" title="Dealer Registration"/>
+		<siteMapNode url="3/vehicle_details.aspx" title="Vehicle Registration"/>
+
+		<siteMapNode url="3/NoDuceTransportation.aspx" title="No Dues"/>		
+
+	</siteMapNode>
+	  
+	<siteMapNode url="" title="Hostel">
+		  <siteMapNode url="" title="Master">
+			  <siteMapNode url="9/hostel_Master.aspx" title="Hostel"/>
+			  <siteMapNode url="9/hostel_category.aspx" title="Hostel Category"/>
+			  <siteMapNode url="9/hostel_location.aspx" title="Hostel Location"/>
+			  <siteMapNode url="9/RoomTypeMaster.aspx" title="Room Type"/>			  
+			  <siteMapNode url="9/room_master.aspx" title="Hostel Room"/>
+			  <siteMapNode url="9/HostelBedMaster.aspx" title="Bed"/>			  
+		  </siteMapNode>
+		  <siteMapNode url="" title="Report">
+			  <siteMapNode url="9/RoomAllotedReport.aspx" title="List of Allotted Students"/>
+			  <siteMapNode url="9/HostelFeeDipositReport.aspx" title="Hostel Fee Deposit Report"/>
+			  <siteMapNode url="9/HostelDueDipositReport.aspx" title="Hostel Due Deposit Report"/>
+			  <siteMapNode url="9/HostelFeeDipositReportInstallMentWise.aspx" title="Hostel Fee Deposit Installment wise"/>
+		  </siteMapNode>
+		  <siteMapNode url="9/RoomAllotments.aspx" title="Room Allotment"/>
+		  <siteMapNode url="9/evacuate.aspx" title="Evacuate"/>
+
+		<siteMapNode url="9/DiscountAllotmentForHostel.aspx" title="Discount Allotment"/>
+
+	</siteMapNode>
+
+	<siteMapNode url="" title="H.R.">
+
+		  <siteMapNode url="" title="Master">
+			  <siteMapNode url="8/employee_category.aspx" title="Category"/>
+			  <siteMapNode url="8/Designation_master.aspx" title="Designation"/>
+			  <siteMapNode url="8/employee_department.aspx" title="Department"/>
+			  <siteMapNode url="8/EducationType.aspx" title="Education Type"/>
+			  <siteMapNode url="8/CreateStaffDocumentName.aspx" title="Set Document Name"/>
+			  <siteMapNode url="8/ShiftCategoryMaster.aspx" title="Shift Category"/>
+			  <siteMapNode url="8/EmpShiftMaster.aspx" title="Shift Master"/>
+			  <siteMapNode url="8/RulesForSalaryCalculation.aspx" title="Rules For Salary"/>
+			  <siteMapNode url="8/SubjectForEmploymentForm.aspx" title="Subject of Employment Form"/>
+		  </siteMapNode>
+
+		  <siteMapNode url="" title="Reports">
+			  <siteMapNode url="8/ListofStaffInformation.aspx" title="List of Staff"/>
+			  <siteMapNode url="8/ListofallDepartments.aspx" title="List of All Department"/>
+			  <siteMapNode url="8/EmpAttendanceReport.aspx" title="Date wise Attendance"/>
+			  <siteMapNode url="8/MonthwisePunchReport.aspx" title="Month wise Attendance"/>
+			  <siteMapNode url="8/Staff_Resignation_Relieve_Report.aspx" title="Resignation/Relieve Report"/>
+			  <siteMapNode url="8/EmploymentFormReport.aspx" title="Employment Form Fee"/>
+			  <siteMapNode url="8/SalaryBreakups.aspx" title="Salary Breakups"/>
+			  <siteMapNode url="8/EmployeeDocsReport.aspx" title="Document Report"/>
+			  
+			  <siteMapNode url="8/EmployeeAttendanceDayWiseReport.aspx" title="Staff Attendance Date wise"/>			  
+			  <siteMapNode url="8/SalaryCalculationReport.aspx" title="Salary Calculation Report"/>
+			  
+		  </siteMapNode>
+
+
+		  <siteMapNode url="" title="Staff Management">
+			  <siteMapNode url="8/employee_registration.aspx" title="Staff Registration"/>
+			  <siteMapNode url="8/employee_updation.aspx" title="Update Registration"/>
+			  <siteMapNode url="8/Staff_Resignation_Relieve.aspx" title="Resignation/Relieve"/>
+			  <siteMapNode url="8/StaffBarcode.aspx" title="Barcode Print"/>
+			  <siteMapNode url="8/EmployeeIdcard.aspx" title="ID Card Print"/>			  
+			  <siteMapNode url="8/employee_registration_by_Excel.aspx" title="Staff Registration By Excel"/>
+		  </siteMapNode>
+
+		  <siteMapNode url="" title="Attendance Management">
+			  <siteMapNode url="8/EmployeeAttendanceDayWise.aspx" title="Date wise Entry"/>
+			  <siteMapNode url="8/EmployeeAttendanceDayWiseUpdate.aspx" title="Date wise Update"/>
+			  <siteMapNode url="8/EmployeeAttendanceUpdate.aspx" title="Punch wise Update"/>
+			  <siteMapNode url="8/EmpAttendanceStatusUpdate.aspx" title="Status wise Update"/>
+			  <siteMapNode url="8/EmployeeAttendanceMonthWise.aspx" title="Month wise Update"/>
+			  <siteMapNode url="8/EmpAttendanceReportSendSMS.aspx" title="SMS for Staff"/>
+		  </siteMapNode>
+
+		  <siteMapNode url="" title="Salary Management">
+			  <siteMapNode url="8/SalaryComponent.aspx" title="Salary Component"/>
+			  <siteMapNode url="8/SetSalary.aspx" title="Set Salary"/>
+			  <siteMapNode url="8/SalaryCalculation.aspx" title="Salary Calculation"/>
+			  <siteMapNode url="8/HolidayMaster.aspx" title="Holiday Master"/>
+			  <siteMapNode url="8/AdvanceSalaryPayment.aspx" title="Advance Salary"/>
+			  <siteMapNode url="8/PaySalary.aspx" title="Pay Salary"/>
+			  
+			  <siteMapNode url="8/SalaryBifurcation.aspx" title="Salary Breakups"/>
+			  <siteMapNode url="8/PaidSalaryReport.aspx" title="Salary Report"/>
+
+
+
+
+		  </siteMapNode>
+
+		  <siteMapNode url="" title="Leave Management">
+			  <siteMapNode url="8/LeaveApplicationForm.aspx" title="Leave Application"/>
+			  <siteMapNode url="8/LeaveApplicationFormforHr.aspx" title="Leave Approval"/>
+		  </siteMapNode>
+
+		<siteMapNode url="8/SmsForLatecomers.aspx" title="SMS For Latecomers"/>
+		<siteMapNode url="8/CustomizeMessageforStaff.aspx" title="Customized SMS"/>
+		<siteMapNode url="8/EmploymentForm.aspx" title="Employment Form"/>
+		<siteMapNode url="8/employment-form.aspx" title="Print Employment Form"/>
+		<siteMapNode url="8/EmployeeInterviewAlert.aspx" title="SMS Alert for Interview"/>		
+
+	  </siteMapNode>	  
+
+    <siteMapNode url="" title="Examination">
+
+      <siteMapNode url="" title="Master">
+          <siteMapNode url="4/AddClassinGroup.aspx" title="Class Group"/>
+		  <siteMapNode url="14/SubjectMaster.aspx" title="Subject"/>
+		  <siteMapNode url="14/PaperMaster.aspx" title="Paper"/>
+		  <siteMapNode url="14/ActivityMaster.aspx" title="Activity"/>
+		  <siteMapNode url="4/CoscholasticAreasMaster.aspx" title="Co-scholastic Group"/>
+		  <siteMapNode url="admin/CoscholasticAreas.aspx" title="Co-sholastic Areas"/>
+		  <siteMapNode url="14/RemarkMaster.aspx" title="Remark"/>
+		  <siteMapNode url="14/HealthMaster.aspx" title="Health"/>
+		  <siteMapNode url="4/SetStudentAttendenceRange.aspx" title="Set Exam Start-End Date"/>		  
+		  <siteMapNode url="4/NoticeRemarkforAdmitCard.aspx" title="Notice for Admit Card"/>
+
+		  <siteMapNode url="14/ClassGroupMaster.aspx" title="Class Group" description="ICSE Board"/>
+		  <siteMapNode url="14/TestPermission.aspx" title="Test Display Permission" description="ICSE Board"/>
+		  <siteMapNode url="14/ClassTeacherEvaluationHead.aspx" title="Class Teacher Evaluation Head" description="ICSE Board"/>
+		  <siteMapNode url="14/RemarkHeadNurToPrep.aspx" title="Remark Head (Pre Primary)" description="ICSE Board"/>		  
+
+        <siteMapNode url="4/OptSubjectMngnt.aspx" title="Optional Subject Group"/>
+        <siteMapNode url="4/InternalGrades.aspx" title="Internal and Other Grade Head"/>
+        <siteMapNode url="4/SetStudentAttendenceRange_ng.aspx" title="Set Exam Start-End Date"/>
+        <siteMapNode url="4/AddSubjectInStream.aspx" title="Subject for Stream"/>
+	  
+		  
+        <siteMapNode url="4/Master_Subject_ng.aspx" title="Subject Master"/>
+        <siteMapNode url="4/Master_Examterms_ng.aspx" title="Exam Terms"/>
+        <siteMapNode url="11/ng/OptionalSubjectAllotment_ng.aspx" title="Optional Subject Allotment"/>
+        <siteMapNode url="4/Master_Exampattern_ng.aspx" title="Exam Pattern"/>
+
+        <siteMapNode url="14/ClassTeacherAllotment.aspx" title="Class Teacher Allotment"/>
+        <siteMapNode url="14/ClassTeacherEvaluation.aspx" title="Class Teacher Evaluation"/>
+
+        <siteMapNode url="14/ClassTeachersRemark.aspx" title="Class Teachers Remark"/>
+        <siteMapNode url="14/AcademicSessionAssesment.aspx" title="Academic Session Assessment"/>
+        <siteMapNode url="14/ConductAndRemarkEntryIXtoXII.aspx" title="Conduct and Remark Entry (IX to XII)"/>
+        
+        
+      </siteMapNode>
+
+      <siteMapNode url="" title="Reports">
+		  <siteMapNode url="4/SubjectTeacherList.aspx" title="Subject Teacher List"/>
+		  <siteMapNode url="4/ClassTeacherList.aspx" title="Class Teacher List"/>
+		  <siteMapNode url="11/RankPositionReport.aspx" title="Rank-Position Report"/>
+		  <siteMapNode url="14/OptionalSubjectStudents.aspx" title="Optional Subject Students"/>
+		  <siteMapNode url="4/DeskSlip.aspx" title="Desk Slip"/>
+		  <siteMapNode url="4/AdmitCard.aspx" title="Admit Card"/>
+		  <siteMapNode url="4/GenrateAdmitCard.aspx" title="Board Admit Card"/>
+
+
+        <siteMapNode url="11/ng/ReportCard_ng.aspx?report=1" title="Report Card" />
+        <siteMapNode url="11/ng/CumlativeReport_ng.aspx" title="Cumulative Report"/>
+        <siteMapNode url="14/ListOfClassTeacher.aspx" title="List of Class Teachers"/>
+        <siteMapNode url="14/ListOfSubjectTeacher.aspx" title="List of Subject Teachers"/>
+
+      </siteMapNode>
+
+      <siteMapNode url="" title="Report Card">
+		  <siteMapNode url="11/G1/ReportCard_NURtoPREP_1718.aspx" title="Pre Primary"/>
+		  <siteMapNode url="11/G2/ReportCard_NURtoPREP_1718.aspx" title="Pre Primary"/>
+		  <siteMapNode url="11/G3/ReportCard_ItoV_1718.aspx" title="Primary"/>
+		  <siteMapNode url="11/G4/ReportCard_VItoVIII_1718.aspx" title="Junior"/>
+		  <siteMapNode url="11/G5/ReportCard_IXtoX_1718.aspx" title="Secondary"/>
+		  <siteMapNode url="11/G6/PrintReportCardXI_1718_New.aspx?check=PrintReportCardXI" title="Eleventh"/>
+		  <siteMapNode url="11/G7/PrintReportCardXII_1718_New.aspx?check=PrintReportCardXII" title="Twelfth"/>
+       
+      </siteMapNode>
+		
+      <siteMapNode url="11/ng/MarksEntry_ng.aspx?print=1" title="Mark Entry"/>
+      <siteMapNode url="11/ng/Master_traitsEntry_ng.aspx?print=Entry" title="Traits Entry"/>
+      <siteMapNode url="4/StudentAttendanceManualy_ng.aspx" title="Manual Attendance"/>
+      <siteMapNode url="11/ng/ClassTeacherComment_ng.aspx" title="Class Teacher Comment"/>
+
+      <siteMapNode url="" title="Class wise Cumulative">
+        <siteMapNode url="11/G1/ClasswiseAllSubjectMarksList_PG.aspx" title="Play Group"/>
+        <siteMapNode url="11/G2/ClasswiseAllSubjectMarksList_NURtoPrep.aspx" title="Pre Primary"/>
+		  <siteMapNode url="11/G2/ClasswiseAllSubjectMarksListNurtoPrep_1718.aspx" title="Pre Primary"/>
+		  <siteMapNode url="11/G1/ClasswiseAllSubjectMarksListNurtoPrep_1718.aspx" title="Pre Primary"/>		  
+        <siteMapNode url="11/G3/ClasswiseAllSubjectMarksListItoV_1617.aspx" title="Primary"/>
+		  <siteMapNode url="11/G3/ClasswiseAllSubjectMarksListItoV_1718.aspx" title="Primary"/>
+		  <siteMapNode url="11/G4/ClasswiseAllSubjectMarksListVItoVIII_1617.aspx" title="Junior"/>
+		  <siteMapNode url="11/G4/ClasswiseAllSubjectMarksListVItoVIII_1718.aspx" title="Junior"/>
+		  <siteMapNode url="11/G5/ClasswiseAllSubjectMarksListIXtoX_1718.aspx" title="Secondary"/>
+		  <siteMapNode url="11/G5/ClasswiseAllSubjectMarksListIXtoX_1617.aspx" title="Secondary"/>
+        <siteMapNode url="11/G5/Cumulative_IXtoX.aspx" title="Secondary"/>
+        <siteMapNode url="11/G6/ClasswiseAllSubjectMarksListXI_1617.aspx" title="Eleventh"/>
+		  <siteMapNode url="11/G6/ClasswiseAllSubjectMarksListXI_1718.aspx" title="Eleventh"/>
+		  <siteMapNode url="11/G7/ClasswiseAllSubjectMarksListXII_1617.aspx" title="Twelfth"/>
+
+        <siteMapNode url="11/G7/ClasswiseAllSubjectMarksListXII_1718.aspx" title="Twelfth"/>
+
+
+      </siteMapNode>
+
+      <siteMapNode url="" title="Student wise Cumulative">
+        <siteMapNode url="11/G1/ClassWiseStudentsMarksList_PG.aspx" title="Play Group"/>
+        <siteMapNode url="11/G2/ClassWiseStudentsMarksList_NUR1toPrep.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G3/ClassWiseStudentsMarksList_ItoV.aspx" title="Primary"/>
+        <siteMapNode url="11/G4/ClassWiseStudentsMarksList_VItoVIII.aspx" title="Junior"/>
+        <siteMapNode url="11/G5/ClassWiseStudentsMarksList_IXtoX.aspx" title="Secondary"/>
+        <siteMapNode url="11/G6/ClassWiseStudentsMarksList_XI.aspx" title="Eleventh"/>
+        <siteMapNode url="11/G7/ClassWiseStudentsMarksList_XII.aspx" title="Twelfth"/>
+
+        <siteMapNode url="11/G1/ParticularStudentMarksPG.aspx" title="Play Group"/>
+        <siteMapNode url="11/G2/ParticularStudentMarksNUR1toPrep.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G3/ParticularStudentMarksItoV_1617.aspx" title="Primary"/>
+        <siteMapNode url="11/G4/ParticularStudentMarksVItoVIII_1617.aspx" title="Junior"/>
+        <siteMapNode url="11/G5/ParticularStudentMarksIXtoX_1617.aspx" title="Secondary"/>
+        <siteMapNode url="11/G6/ParticularStudentMarksXI_1617.aspx" title="Eleventh"/>
+        <siteMapNode url="11/G7/ParticularStudentMarksXII_1617.aspx" title="Twelfth"/>
+
+        <siteMapNode url="11/G1/Studentwisecumulative_NurtoPrep.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G2/Studentwisecumulative_NurtoPrep.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G3/Studentwisecumulative_ItoV.aspx" title="Primary"/>
+        <siteMapNode url="11/G4/Studentwisecumulative_VItoVIII.aspx" title="Junior"/>
+        <siteMapNode url="11/G5/Studentwisecumulative_IXtoX.aspx" title="Secondary"/>
+        <siteMapNode url="11/G5/SubjectWiseCumAditionalIXtoX.aspx" title="Aditional Subject wise Cumulative (Secondary)"/>
+
+        <siteMapNode url="11/G6/Studentwisecumulative_XI.aspx" title="Eleventh"/>
+        <siteMapNode url="11/G7/Studentwisecumulative_XII.aspx" title="Twelfth"/>
+
+      </siteMapNode>
+
+      <siteMapNode url="" title="Subject wise Cumulative">
+        <siteMapNode url="11/G1/MarkEntryReport_PG.aspx" title="Play Group"/>
+        <siteMapNode url="11/G2/MarkEntryReport_NUR1toPrep.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G3/MarkEntryReportItoV_1617.aspx" title="Primary"/>
+        <siteMapNode url="11/G3/MarkEntryReport_ItoV.aspx" title="Primary"/>
+        <siteMapNode url="11/G4/MarkEntryReportVItoVIII_1617.aspx" title="Primary"/>
+        <siteMapNode url="11/G5/MarkEntryReportIXtoX_1617.aspx" title="Primary"/>
+        <siteMapNode url="11/G6/MarkEntryReportXI_1617.aspx" title="Eleventh"/>
+
+        <siteMapNode url="11/G1/MarksEntryReportNurtoPrep_1718.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G2/MarksEntryReportNurtoPrep_1718.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G3/MarksEntryReportItoV_1718.aspx" title="Primary"/>
+        <siteMapNode url="11/G4/MarksEntryReportVItoVIII_1718.aspx" title="Junior"/>
+        <siteMapNode url="11/G5/MarksEntryReportIXtoX_1718.aspx" title="Secondary"/>
+
+        <siteMapNode url="11/G6/MarksEntryReportXI_1718.aspx" title="Eleventh)"/>
+        <siteMapNode url="11/G7/MarksEntryReportXII_1718.aspx" title="Twelfth)"/>
+        <siteMapNode url="14/SubjectwiseCumlativeItoVIII.aspx" title="I to VIII"/>
+        <siteMapNode url="14/SubjectwiseCumlativeIXtoXII.aspx" title="IX to XII"/>
+
+
+      </siteMapNode>
+
+	  <siteMapNode url="" title="Test Wise Cumulative">
+			<siteMapNode url="11/G1/TestwiseCumlativePG.aspx" title="Play Group"/>
+		  <siteMapNode url="11/G1/TestwiseCumlativeNurtoPrep.aspx" title="Pre Primary"/>
+		  <siteMapNode url="11/G2/TestwiseCumlativeNurtoPrep.aspx" title="Pre Primary"/>
+			<siteMapNode url="11/G3/TestwiseCumlativeItoV.aspx" title="Primary"/>
+			<siteMapNode url="11/G4/TestwiseCumlativeVItoVIII.aspx" title="Junior"/>
+			<siteMapNode url="11/G5/TestwiseCumlativeIXtoX.aspx" title="Secondary"/>
+			<siteMapNode url="11/G6/TestwiseCumlativeXI.aspx" title="Eleventh"/>
+			<siteMapNode url="11/G7/TestwiseCumlativeXII.aspx" title="Twelfth"/>
+		</siteMapNode>
+
+	  <siteMapNode url="" title="Marks Entry">
+        <siteMapNode url="11/G1/MarkEntryForPG.aspx" title="Play Group"/>
+        <siteMapNode url="11/G2/MarkEntryForNURItoPREP.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G3/MarkEntryForItoV_1617.aspx" title="Primary"/>
+        <siteMapNode url="11/G4/MarkEntryForVItoVIII_1617.aspx" title="Junior"/>
+        <siteMapNode url="11/G5/MarkEntryForIXtoX_1617.aspx" title="Secondary"/>
+        <siteMapNode url="11/G6/MarkEntryForXI_1617.aspx" title="Eleventh"/>
+        <siteMapNode url="11/G7/MarkEntryForXII_1617.aspx" title="Twelfth"/>
+
+        <siteMapNode url="11/G1/MarksEntryNurtoPrep_1718.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G2/MarksEntryNurtoPrep_1718.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G3/MarksEntryItoV_1718.aspx" title="Primary"/>
+        <siteMapNode url="11/G4/MarksEntryVItoVIII_1718.aspx" title="Junior"/>
+        <siteMapNode url="11/G5/MarksEntryIXtoX_1718.aspx" title="Secondary"/>
+        <siteMapNode url="11/G5/MarksEntryIXtoX_1920.aspx" title="Secondary"/>
+
+
+        <siteMapNode url="11/G6/MarksEntryXI_1718.aspx" title="Eleventh"/>
+        <siteMapNode url="11/G7/MarksEntryXII_1718.aspx" title="Twelfth"/>
+
+      </siteMapNode>
+
+      <siteMapNode url="" title="Co-scholastic Entry">
+		  <siteMapNode url="11/G1/CoscholasticGradeEntry_NurtoPrep.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G2/CoscholasticGradeEntry_NurtoPrep.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G3/CoscholasticGradeEntryItoV_1617.aspx" title="Primary"/>
+        <siteMapNode url="11/G4/CoscholasticGradeEntry_VItoVIII.aspx" title="Junior"/>
+        <siteMapNode url="11/G5/CoscholasticGradeEntry_IXtoX.aspx" title="Secondary"/>
+        <siteMapNode url="11/G6/CoscholasticGradeEntry_XI.aspx" title="Eleventh"/>
+        <siteMapNode url="11/G7/CoscholasticGradeEntry_XII.aspx" title="Twelfth"/>
+        <siteMapNode url="11/G5/PersonalityCCEntry_IXtoX.aspx" title="Personality Character Chart Entry IX to X"/>
+      </siteMapNode>
+
+      <siteMapNode url="" title="Other Entry">
+		  <siteMapNode url="11/G1/NURtoPREPRemark.aspx" title="Remark Entry (Pre Primary)"/>
+		  <siteMapNode url="11/G2/NURtoPREPRemark.aspx" title="Remark Entry (Pre Primary)"/>
+		  <siteMapNode url="11/G3/ItoVRemark.aspx" title="Remark Entry (Primary)"/>
+		  <siteMapNode url="11/G4/VItoVIIISelfAwareness.aspx" title="Remark Entry (Junior)"/>
+		  <siteMapNode url="11/G5/IXtoXSelfAwareness.aspx" title="Remark Entry (Secondary)"/>
+		  <siteMapNode url="11/G6/RemarkForXI_1718.aspx" title="Remark Entry (Eleventh)"/>
+		  <siteMapNode url="11/G7/RemarkForXII_1718.aspx" title="Remark Entry (Twelfth)"/>
+		  
+		  <siteMapNode url="11/G1/OtherActivityEntryForPG.aspx" title="Activity Entry (Play Group)"/>
+        <siteMapNode url="11/G6/XIGRADEENTRY.aspx" title="Grade Entry (Eleventh)"/>
+        <siteMapNode url="11/G7/XIIGRADEENTRY.aspx" title="Grade Entry (Twelfth)"/>
+        <siteMapNode url="11/G6/RemarkForXI.aspx" title="Remark Entry (Eleventh)"/>
+        <siteMapNode url="11/G7/RemarkForXII.aspx" title="Remark Entry (Twelfth)"/>
+
+        <siteMapNode url="11/G1/PGRemark.aspx" title="Remark Entry (Play Group)"/>
+        <siteMapNode url="14/RemarkNurToPrep.aspx" title="Remark (Pre Primary)"/>
+
+      </siteMapNode>
+
+      <siteMapNode url="" title="Exam Management">
+
+		  <siteMapNode url="admin/ClassTeacherMaster.aspx" title="Class Teacher Allotment"/>
+		  <siteMapNode url="14/SubjectTeacherAllotment.aspx" title="Subject Teacher Allotment"/>
+		  <siteMapNode url="4/SubjectReplacement.aspx" title="Teacher Replacement"/>
+		  <siteMapNode url="14/OptionalSubjectAllotment.aspx" title="Optional Subject Allotment"/>
+		  <siteMapNode url="11/OptSubjectEntryDelete.aspx" title="Optional Subject Mark Entry Deletion"/>
+		  <siteMapNode url="4/AdmitCardEntry.aspx" title="Entry for Admit Card"/>
+		  <siteMapNode url="4/SetCoscholasticGroupDisplayOrder.aspx" title="Co-scholastic Group Display Order"/>		  
+
+
+
+        <siteMapNode url="admin/ClassTeacherMaster_ng.aspx" title="Class Teacher Allotment"/>
+        <siteMapNode url="4/ClassAllotment.aspx" title="Class Allotment"/>
+        <siteMapNode url="4/ClassAllotment_ng.aspx" title="Subject Teacher Allotment"/>
+        <siteMapNode url="4/AlternetPageForAddGroupForSbject.aspx" title="Add Subject in Group"/>
+        <siteMapNode url="4/AddSubjectGroupDisplayOrder.aspx" title="Subject Group Display Order"/>
+        <siteMapNode url="4/AddSubjectDisplayOrder.aspx" title="Subject Display Order"/>
+        <siteMapNode url="4/CoscholasticAllotment.aspx" title="Co-scholastic Allotment"/>
+        <siteMapNode url="14/ShowreportcardtoparentsICSE.aspx" title="Report Card Display (for Parent Portal)"/>
+
+      </siteMapNode>
+
+      <siteMapNode url="" title="Exam Administration">
+		  <siteMapNode url="11/Showreportcardtoparents.aspx" title="Online Report Card Display (for Parent Portal)"/>		  
+        <siteMapNode url="4/PermissionForchangeMarks.aspx" title="Permission for changing Marks"/>
+      </siteMapNode>
+
+      <siteMapNode url="" title="Send Marks">
+        <siteMapNode url="11/G1/SmsAlertForPG_1718.aspx" title="Play Group"/>
+		  <siteMapNode url="11/G1/SmsAlertForNurtoPrep_1718.aspx" title="Pre Primary"/>
+		  <siteMapNode url="11/G2/SmsAlertForNurtoPrep_1718.aspx" title="Pre Primary"/>
+        <siteMapNode url="11/G3/SmsAlertForItoV_1718.aspx" title="Primary"/>
+        <siteMapNode url="11/G4/SmsAlertForVItoVIII_1718.aspx" title="Junior"/>
+        <siteMapNode url="11/G5/SmsAlertForIXtoX_1718.aspx" title="Secondary"/>
+        <siteMapNode url="11/G6/SmsAlertForXI_1718.aspx" title="Eleventh"/>
+        <siteMapNode url="11/G7/SmsAlertForXII_1718.aspx" title="Twelfth"/>
+      </siteMapNode>
+		
+      <siteMapNode url="4/StudentAttendanceManualy.aspx" title="Manual Attendance Entry"/>
+    </siteMapNode>
+	  
+	<siteMapNode url="" title="Exam">
+		
+		<siteMapNode url="" title="Report Card">
+			<siteMapNode url="14/ReportCard_NurtoPrep.aspx" title="Pre Primary"/>
+			<siteMapNode url="14/ReportCard_ItoVIII.aspx" title="I to VIII"/>
+			<siteMapNode url="14/ReportCard_IXtoXII.aspx" title="IX to XII"/>
+
+		</siteMapNode>
+
+		<siteMapNode url="" title="Class wise Cumulative">
+		<siteMapNode url="14/ClasswiseCumlativeItoVIII.aspx" title="I to VIII"/>
+		<siteMapNode url="14/ClasswiseCumlativeIXtoXII.aspx" title="IX to XII"/>
+		</siteMapNode>
+		
+		<siteMapNode url="" title="Student wise Cumulative">
+			<siteMapNode url="14/Studentwisecumulative_ItoVIII.aspx" title="I to VIII"/>
+			<siteMapNode url="14/Studentwisecumulative_IXtoXII.aspx" title="IX to VII"/>			
+		</siteMapNode>
+		<siteMapNode url="" title="Marks Entry">
+			<siteMapNode url="14/MarkEntryNurtoPrep.aspx" title="Pre Primary"/>
+			<siteMapNode url="14/MarksEntryItoVIII.aspx" title="I to VIII"/>
+			<siteMapNode url="14/MarksEntryIXtoXII.aspx" title="IX to XII"/>			
+			
+		</siteMapNode>			
+
+		</siteMapNode>
+
+	<siteMapNode url="" title="Examinations">
+
+		<siteMapNode url="" title="Report Card">
+
+			  <siteMapNode url="16/G2/ReportCard_NURtoPREP_1718.aspx" title="Pre Primary"/>
+			  <siteMapNode url="16/G3/ReportCard_ItoV.aspx" title="Primary"/>
+			  <siteMapNode url="16/G4/ReportCard_VItoVIII.aspx" title="Junior"/>
+			  <siteMapNode url="16/G5/ReportCard_IXtoX.aspx" title="Secondary"/>
+			  <siteMapNode url="16/G6/ReportCard_XI.aspx" title="Eleventh"/>
+			  <siteMapNode url="16/G7/ReportCard_XII.aspx" title="Twelfth"/>
+
+		  </siteMapNode>
+
+		  <siteMapNode url="" title="Class wise Cumulative">
+			  <siteMapNode url="16/G1/ClasswiseAllSubjectMarksList_PG.aspx" title="Play Group"/>
+			  <siteMapNode url="16/G2/ClasswiseAllSubjectMarksList_NURtoPrep.aspx" title="Pre Primary"/>
+			  <siteMapNode url="16/G3/ClasswiseAllSubjectMarksListItoV_1617.aspx" title="Primary"/>
+			  <siteMapNode url="16/G4/ClasswiseAllSubjectMarksListVItoVIII_1617.aspx" title="Junior"/>
+			  <siteMapNode url="16/G5/ClasswiseAllSubjectMarksListIXtoX_1617.aspx" title="Secondary"/>
+			  <siteMapNode url="16/G5/Cumulative_IXtoX.aspx" title="Secondary"/>
+			  <siteMapNode url="16/G6/ClasswiseAllSubjectMarksListXI_1617.aspx" title="Eleventh"/>
+			  <siteMapNode url="16/G7/ClasswiseAllSubjectMarksListXII_1617.aspx" title="Twelfth"/>
+
+			  <siteMapNode url="16/G2/ClasswiseAllSubjectMarksListNurtoPrep_1718.aspx" title="Class wise Cumulative (Pre Primary)"/>
+			  <siteMapNode url="16/G3/ClasswiseAllSubjectMarksListItoV_1718.aspx" title="Class wise Cumulative (Primary)"/>
+			  <siteMapNode url="16/G4/ClasswiseAllSubjectMarksListVItoVIII_1718.aspx" title="Class wise Cumulative (Junior)"/>
+			  <siteMapNode url="16/G5/ClasswiseAllSubjectMarksListIXtoX_1718.aspx" title="Class wise Cumulative (Secondary)"/>
+
+			  <siteMapNode url="16/G6/ClasswiseAllSubjectMarksListXI_1718.aspx" title="Class wise Cumulative (Eleventh)"/>
+			  <siteMapNode url="16/G7/ClasswiseAllSubjectMarksListXII_1718.aspx" title="Class wise Cumulative (Twelfth)"/>
+
+
+		  </siteMapNode>
+
+		  <siteMapNode url="" title="Student wise Cumulative">
+			  <siteMapNode url="16/G1/ClassWiseStudentsMarksList_PG.aspx" title="Play Group"/>
+			  <siteMapNode url="16/G2/ClassWiseStudentsMarksList_NUR1toPrep.aspx" title="Pre Primary"/>
+			  <siteMapNode url="16/G3/ClassWiseStudentsMarksList_ItoV.aspx" title="Primary"/>
+			  <siteMapNode url="16/G4/ClassWiseStudentsMarksList_VItoVIII.aspx" title="Junior"/>
+			  <siteMapNode url="16/G5/ClassWiseStudentsMarksList_IXtoX.aspx" title="Secondary"/>
+			  <siteMapNode url="16/G6/ClassWiseStudentsMarksList_XI.aspx" title="Eleventh"/>
+			  <siteMapNode url="16/G7/ClassWiseStudentsMarksList_XII.aspx" title="Twelfth"/>
+
+			  <siteMapNode url="16/G1/ParticularStudentMarksPG.aspx" title="Play Group"/>
+			  <siteMapNode url="16/G2/ParticularStudentMarksNUR1toPrep.aspx" title="Pre Primary"/>
+			  <siteMapNode url="16/G3/ParticularStudentMarksItoV_1617.aspx" title="Primary"/>
+			  <siteMapNode url="16/G4/ParticularStudentMarksVItoVIII_1617.aspx" title="Junior"/>
+			  <siteMapNode url="16/G5/ParticularStudentMarksIXtoX_1617.aspx" title="Secondary"/>
+			  <siteMapNode url="16/G6/ParticularStudentMarksXI_1617.aspx" title="Eleventh"/>
+			  <siteMapNode url="16/G7/ParticularStudentMarksXII_1617.aspx" title="Twelfth"/>
+
+			  <siteMapNode url="16/G2/Studentwisecumulative_NurtoPrep.aspx" title="Pre Primary"/>
+			  <siteMapNode url="16/G3/Studentwisecumulative_ItoV.aspx" title="Primary"/>
+			  <siteMapNode url="16/G4/Studentwisecumulative_VItoVIII.aspx" title="Junior"/>
+			  <siteMapNode url="16/G5/Studentwisecumulative_IXtoX.aspx" title="Secondary"/>
+			  <siteMapNode url="16/G5/SubjectWiseCumAditionalIXtoX.aspx" title="Additional Subject wise Cumulative (Secondary)"/>
+
+			  <siteMapNode url="16/G6/Studentwisecumulative_XI.aspx" title="Eleventh"/>
+			  <siteMapNode url="16/G7/Studentwisecumulative_XII.aspx" title="Twelfth"/>
+
+		  </siteMapNode>
+
+		  <siteMapNode url="" title="Subject wise Cumulative">
+			  <siteMapNode url="16/G2/MarkEntryReport_NURtoPrep.aspx" title="Pre Primary"/>
+			  <siteMapNode url="16/G3/SubjectwiseCumlativeItoV.aspx" title="Primary"/>
+			  <siteMapNode url="16/G4/SubjectwiseCumlativeVItoVIII.aspx" title="Junior"/>
+			  <siteMapNode url="16/G5/SubjectwiseCumlativeIXtoX.aspx" title="Secondary"/>
+			  <siteMapNode url="16/G6/SubjectwiseCumlativeXI.aspx" title="Eleventh"/>
+			  <siteMapNode url="16/G7/SubjectwiseCumlativeXII.aspx" title="Twelfth"/>
+		  </siteMapNode>
+
+		  <siteMapNode url="" title="Test Wise Cumulative">
+			<siteMapNode url="16/G1/TestwiseCumlativePG.aspx" title="Play Group"/>
+			<siteMapNode url="16/G2/TestwiseCumlativeNurtoPrep.aspx" title="Pre Primary"/>
+			<siteMapNode url="16/G3/TestwiseCumlativeItoV.aspx" title="Primary"/>
+			<siteMapNode url="16/G4/TestwiseCumlativeVItoVIII.aspx" title="Junior"/>
+			<siteMapNode url="16/G5/TestwiseCumlativeIXtoX.aspx" title="Secondary"/>
+			<siteMapNode url="16/G6/TestwiseCumlativeXI.aspx" title="Eleventh"/>
+			<siteMapNode url="16/G7/TestwiseCumlativeXII.aspx" title="Twelfth"/>
+		</siteMapNode>		
+
+		  <siteMapNode url="" title="Marks Entry">
+			  <siteMapNode url="16/G2/MarksEntryItoV.aspx" title="Pre Primary"/>
+			  <siteMapNode url="16/G3/MarksEntryItoV.aspx" title="Primary"/>
+			  <siteMapNode url="16/G4/MarksEntryVItoVIII.aspx" title="Junior"/>
+			  <siteMapNode url="16/G5/MarksEntryIXtoX.aspx" title="Secondary"/>
+			  <siteMapNode url="16/G6/MarksEntry.aspx" title="Eleventh"/>
+			  <siteMapNode url="16/G7/MarksEntry.aspx" title="Twelfth"/>
+		  </siteMapNode>
+
+		  <siteMapNode url="" title="Grade Entry">
+			  <siteMapNode url="16/G2/AditionalGradeEntry.aspx" title="Additional Subject Grade Entry (Pre Primary)"/>
+			  <siteMapNode url="16/G3/AditionalGradeEntry.aspx" title="Additional Subject Grade Entry (Primary)"/>
+			  <siteMapNode url="16/G4/AditionalGradeEntry.aspx" title="Additional Subject Grade Entry (Junior)"/>
+			  <siteMapNode url="16/G5/AditionalGradeEntry.aspx" title="Additional Subject Grade Entry (Secondary)"/>
+			  <siteMapNode url="16/G6/AditionalGradeEntry.aspx" title="Additional Subject Grade Entry (Eleventh)"/>
+			  <siteMapNode url="16/G7/AditionalGradeEntry.aspx" title="Additional Subject Grade Entry (Twelfth)"/>
+		  </siteMapNode>
+
+	  </siteMapNode>
+
+    <siteMapNode url="" title="Time Table">
+      <siteMapNode url="" title="Master">
+        
+        <siteMapNode url="5/PeriodMaster.aspx" title="Period Master"/>
+        <siteMapNode url="5/PeriodMapping.aspx" title="Period Mapping"/>
+        <siteMapNode url="5/PeriodAllotToStaff.aspx" title="Period Allotment"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Reports">
+        <siteMapNode url="5/AllotedTimeTable.aspx" title="Allotted Time Table"/>
+        <siteMapNode url="5/ReriodAllotmentReport.aspx" title="Period Allotment Report"/>
+        <siteMapNode url="5/AutomaticTimeTable.aspx" title="Automatic Time Table"/>
+
+      </siteMapNode>
+      <siteMapNode url="5/GenerateTimeTable.aspx" title="Generate Time Table"/>
+      <siteMapNode url="5/RulesForTimeTable.aspx" title="Time Table Rules"/>
+      <siteMapNode url="5/manualReplacement.aspx" title="Manual Time Table Replacement"/>
+
+    </siteMapNode>
+
+    <siteMapNode url="" title="Library">
+      <siteMapNode url="" title="Master">
+        <siteMapNode url="6/RulesForlibrary.aspx" title="Book Issue/Return Rules"/>
+        <siteMapNode url="6/LibraryBookLossDamegedMaster.aspx" title="Damaged Category"/>
+        <siteMapNode url="6/publisher_category.aspx" title="Publisher Category"/>
+        <siteMapNode url="6/supplier_category.aspx" title="Supplier Category"/>
+        <siteMapNode url="6/item_category.aspx" title="Item Category"/>
+        <siteMapNode url="6/item_Sub_category.aspx" title="Item Sub Category"/>
+        <siteMapNode url="6/item_language.aspx" title="Item Language"/>
+        <siteMapNode url="6/subject_topic_master.aspx" title="Subject / Topic Master"/>
+        <siteMapNode url="6/book_status_master.aspx" title="Book Status Master"/>
+        <siteMapNode url="6/MemberCategoryLibrary.aspx" title="Student Member Category"/>
+        <siteMapNode url="6/MemberShipEntryLibrary.aspx" title="Student Membership Entry"/>
+        <siteMapNode url="6/MemberCategoryFacultyLibrary.aspx" title="Faculty Member Category"/>
+        <siteMapNode url="6/MemberShipEntryFacultyLibrary.aspx" title="Faculty Membership Entry"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Reports">
+        <siteMapNode url="6/LibraryCategoryWiseReport.aspx" title="List of Items"/>
+        <siteMapNode url="6/LibrarySubCategoryWiseReport.aspx" title="Sub Category wise Report"/>
+        <siteMapNode url="6/LibraryTitleWiseReport.aspx" title="Title wise Report"/>
+        <siteMapNode url="6/LibraryAccessionNoWiseReport.aspx" title="Accession No. wise Report"/>
+        <siteMapNode url="6/LibraryAuthorWiseReport.aspx" title="Author wise Report"/>
+        <siteMapNode url="6/LibraryPublisherWiseReport.aspx" title="Publisher wise Report"/>
+        <siteMapNode url="6/ListOfpublisher.aspx" title="List of Publisher"/>
+        <siteMapNode url="6/ListOfSupplire.aspx" title="List of Supplier"/>
+
+        <siteMapNode url="6/LibraryClassWiseReport.aspx" title="Class wise Report"/>
+        <siteMapNode url="6/LibIssuedItemList.aspx" title="Library Issued Item Report"/>
+        <siteMapNode url="6/LIBBOOKFINE.aspx" title="Library Book Fine Report"/>
+
+      </siteMapNode>
+      <siteMapNode url="6/publisher_entry.aspx" title="Publisher Entry"/>
+      <siteMapNode url="6/supplier_entry.aspx" title="Supplier Entry"/>
+      <siteMapNode url="6/library_rules.aspx" title="Library Rules"/>
+      <siteMapNode url="6/purchase_order_generation.aspx" title="Purchase Order Generation"/>
+      <siteMapNode url="6/item_entry.aspx" title="Item Entry"/>
+      <siteMapNode url="6/view_purchase_order.aspx" title="View Purchase Order"/>
+      <siteMapNode url="6/issue_return_library_item.aspx" title="Issue/Return Library Items"/>
+      <siteMapNode url="6/issue_return_book_bank_item.aspx" title="Issue/Return Book Bank Items"/>
+      <siteMapNode url="6/DeleteAccessionNoBook.aspx" title="Dispose Item"/>
+      <siteMapNode url="6/UpdateAccessionNo.aspx" title="Change Accession No."/>
+      <siteMapNode url="6/no_duce_library.aspx" title="No Dues"/>
+      <siteMapNode url="6/BookIssue_Return_Master.aspx" title="Issue/Return Library Items"/>
+      <siteMapNode url="6/LibraryBarcode.aspx" title="Barcode Print"/>
+      <siteMapNode url="6/item_entry_by_excel.aspx" title="Item Entry By Excel"/>
+      <siteMapNode url="6/LibraryReceipet.aspx" title="Library Fine Receipt"/>
+      <siteMapNode url="6/LibraryReceipetDuplicate.aspx" title="Library Fine Receipt"/>
+    </siteMapNode>
+
+    <siteMapNode url="" title="Online Test">
+      <siteMapNode url="" title="Master">
+        <siteMapNode url="13/SubjectMaster.aspx" title="Subject Master"/>
+        <siteMapNode url="13/PaperMaster.aspx" title="Paper Master"/>
+        <siteMapNode url="13/ExamMaster.aspx" title="Test Master"/>
+        <siteMapNode url="13/SegmentMaster.aspx" title="Segment Master"/>
+        <siteMapNode url="13/GenerateAnswer.aspx" title="Generate Answer"/>
+        <siteMapNode url="13/TermMaster.aspx" title="Term Master"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Test Management">
+        <siteMapNode url="13/AllotExam.aspx" title="Test Allotment"/>
+        <siteMapNode url="13/AllotTestToStaff.aspx" title="Subject Teacher Allotment"/>
+        <siteMapNode url="13/ResultDeclaration.aspx" title="Declare Result"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Test Administration">
+        <siteMapNode url="13/EditExam.aspx" title="Edit Test Master"/>
+        <siteMapNode url="13/DeAllotExam.aspx" title="Test De-Allotment"/>
+        <siteMapNode url="13/ReInitilizeExam.aspx" title="Reinitialize Allotment"/>
+        <siteMapNode url="13/deleteAllottedtest.aspx" title="Delete Allotted Test"/>
+        <siteMapNode url="13/AllotedTestForAdmin.aspx" title="View Allotted Test"/>
+      </siteMapNode>
+		<siteMapNode url="13/Assisment.aspx" title="Test Assessment"/>
+     <siteMapNode url="" title="Reports">
+       <siteMapNode url="13/Studentwisereport.aspx" title="Class wise Result"/>
+       <siteMapNode url="13/ExamAdminResult.aspx" title="Student wise Result"/>
+       <siteMapNode url="13/ResultAdmin.aspx" title="Student wise Result"/>
+       <siteMapNode url="13/TestSchedule.aspx" title="Test Schedule"/>
+     </siteMapNode>
+    </siteMapNode>
+	  
+    <siteMapNode url="" title="Inventory">
+      <siteMapNode url="" title="Master">
+        <siteMapNode url="10/UnitMaster.aspx" title="Unit Master"/>
+        <siteMapNode url="10/VendorCatagoryMaster.aspx" title="Vendor Catagory Master"/>
+        <siteMapNode url="10/ProductOrServices.aspx" title="Product/Services"/>
+        <siteMapNode url="10/DamageOrLost.aspx" title="Damage/Lost"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Reports">
+        <siteMapNode url="10/IssuedProductList.aspx" title="Issue- Return List"/>
+		  <siteMapNode url="7/QuotationList.aspx" title="List of Quotations"/>
+		  <siteMapNode url="7/InvoiceList.aspx" title="List of Invoice"/>
+		  <siteMapNode url="10/ListofPO.aspx" title="List of P.O."/>
+		  <siteMapNode url="10/StockReport.aspx" title="Stock Report"/>
+	  </siteMapNode>
+      <siteMapNode url="" title="Purchase Order">
+        <siteMapNode url="10/PurchaseOrder.aspx" title="Submit P.O."/>
+        <siteMapNode url="10/UpdatePurchaseOrder.aspx" title="Update P.O."/>
+        <siteMapNode url="10/PurchaseOrderPrint.aspx" title="Print P.O."/>
+      </siteMapNode>
+      <siteMapNode url="" title="Invoice Management">
+        <siteMapNode url="10/InvoiceEntry.aspx" title="Submit Invoice"/>
+        <siteMapNode url="10/UpdateInvoice.aspx" title="Update Invoice"/>
+        <siteMapNode url="10/CancelInvoice.aspx" title="Cancel Invoice"/>
+      </siteMapNode>
+      <siteMapNode url="10/VendorRegistration.aspx" title="Vendor Registration"/>
+      
+     
+      <siteMapNode url="10/LocalPurchase.aspx" title="Local Purchase"/>
+      
+      <siteMapNode url="10/IssueProduct.aspx" title="Issue Products"/>
+      <siteMapNode url="10/ReturnProduct.aspx" title="Return Products"/>
+    </siteMapNode>
+
+	<siteMapNode url="" title="Accounts">
+		  <siteMapNode url="" title="Master">
+			  <siteMapNode url="7/HeadMaster.aspx" title="Head Master"/>
+			  <siteMapNode url="7/HeadAutomation.aspx" title="Head Automation"/>
+			  <siteMapNode url="7/BankMaster.aspx" title="Bank Master"/>
+			  <siteMapNode url="7/BankBranchMaster.aspx" title="Branch Master"/>
+			  <siteMapNode url="7/BankAccount.aspx" title="Institute Bank Account"/>
+			  <siteMapNode url="7/OrganizationType.aspx" title="Organization Type"/>
+			  <siteMapNode url="7/VendorType.aspx" title="Vendor Type"/>
+			  <siteMapNode url="7/DaybookStatus.aspx" title="Reset/Close Daybook"/>
+			  <siteMapNode url="7/InstituteAccount.aspx" title="Openning Account Balance"/>
+
+		  </siteMapNode>
+		  <siteMapNode url="" title="Reports">
+			  <siteMapNode url="7/DayBookReport.aspx" title="Day Book Report"/>
+			  <siteMapNode url="7/VendorList.aspx" title="List of Vendors"/>
+			  <siteMapNode url="7/LedgerReport.aspx" title="Ledger"/>
+			  <siteMapNode url="7/DayBookMonthlyReport.aspx" title="Monthly Day Book Report"/>
+			  <siteMapNode url="7/EmployeeDayBookReport.aspx" title="Staff Ledger"/>
+			  <siteMapNode url="7/Vendorledger.aspx" title="Vendor Ledger"/>
+			  <siteMapNode url="7/DayBookEntryReport.aspx" title="Day Book Entry Report"/>
+		  </siteMapNode>
+		  <siteMapNode url="7/DayBook.aspx" title="Daybook Entry"/>
+		  <siteMapNode url="" title="Vendor Management">
+			  <siteMapNode url="7/Vendor.aspx" title="Vendor Registration"/>
+			  <siteMapNode url="7/VendorUpdation.aspx" title="Vendor Updation"/>
+		  </siteMapNode>
+
+		  <siteMapNode url="" title="Quotation">
+			  <siteMapNode url="7/VendorQuotation.aspx" title="Quotation Submission"/>
+			  <siteMapNode url="7/QuotationApproval.aspx" title="Quotation Approval"/>
+			  <siteMapNode url="7/EditQuotation.aspx" title="Edit Transaction"/>
+			  <siteMapNode url="7/VendorInvoice.aspx" title="Invoice Submission"/>
+		  </siteMapNode>
+
+		  <siteMapNode url="7/VendorPayment.aspx" title="Vendor Payment"/>
+
+	  </siteMapNode>
+
+	<siteMapNode url="" title="Alumni Portal">
+		  <siteMapNode url="alumni/AlumniMaster.aspx" title="Alumni Approval"/>
+		  <siteMapNode url="alumni/news.aspx" title="Bulletin Board"/>
+		  <siteMapNode url="alumni/ListOfAlumni.aspx" title="List of Alumni"/>
+	  </siteMapNode>	  
+
+    <siteMapNode url="" title="Online Test">
+      <siteMapNode url="onlinetest/SubjectMaster.aspx" title="Subject Master"/>
+      <siteMapNode url="onlinetest/PaperMaster.aspx" title="Paper Master"/>
+      <siteMapNode url="onlinetest/ExamMaster.aspx" title="Exam Master"/>
+      <siteMapNode url="onlinetest/GenerateAnswer.aspx" title="Generate Answer"/>
+      <siteMapNode url="onlinetest/OnlineTest.aspx" title="Student's Online Test"/>
+    </siteMapNode>
+
+	  <siteMapNode url="" title="System"  description="">
+
+		  <siteMapNode url="Admin/Brand.aspx" title="Branding"  description="" />
+
+		  <siteMapNode url="Admin/CollegeBranchMaster.aspx" title="Institute Branch Location"  description="" />
+
+		  <siteMapNode url="Admin/main-icon-selection-list.aspx" title="Set Icon"  description="" />
+		  <siteMapNode url="Admin/LoginScreenWallpaper.aspx" title="Login Screen Wallpaper"  description="" />
+		  <siteMapNode url="Admin/setting.aspx" title="Setting"  description="" />
+
+
+
+	  </siteMapNode>
+
+	  <siteMapNode url="" title="Ticket">
+
+		  <siteMapNode url="11/NewTicket.aspx" title="New Ticket"/>
+		  <siteMapNode url="11/TicketReply.aspx" title="Reply Ticket"/>
+
+		  <siteMapNode url="admin/TicketAllotment.aspx" title="New Ticket Assign"/>
+		  <siteMapNode url="admin/ViewTicket.aspx" title="View Assign Ticket"/>
+
+	  </siteMapNode>
+
+	  <siteMapNode url="" title="Website">
+
+		  <siteMapNode url="12/NewsEvents.aspx" title="News and Events"/>
+		  <siteMapNode url="12/Homepagenotice.aspx" title="Home page Notice"/>
+		  <siteMapNode url="" title="Photo Gallery"  description="">
+			  <siteMapNode url="12/Addalbum.aspx" title="Create Album"  description="" />
+			  <siteMapNode url="12/PhotoGallery.aspx" title="Create Gallery"  description="" />
+			  <siteMapNode url="12/MediaGallery.aspx" title="Create Media Gallery"  description="" />
+			  <siteMapNode url="12/UploadHomePageSliderImages.aspx" title="Home Page Slider"  description="" />
+		  </siteMapNode>
+
+		  <siteMapNode url="" title="Video Gallery"  description="">
+			  <siteMapNode url="12/UploadVideos.aspx" title="Upload Video"  description="" />
+			  <siteMapNode url="12/Homepagevideo.aspx" title="Upload Home page Video"  description="" />
+		  </siteMapNode>
+
+		  <siteMapNode url="" title="Career"  description="">
+			  <siteMapNode url="12/Jobposting.aspx" title="Job Posting"  description="" />
+			  <siteMapNode url="12/DownloadResume.aspx" title="Download Resume"  description="" />
+		  </siteMapNode>
+
+		  <siteMapNode url="" title="Uploads"  description="">
+			  <siteMapNode url="12/UploadProspectus.aspx" title="Upload Prospectus"  description="" />
+			  <siteMapNode url="12/Feestructure.aspx" title="Upload Fee Structure"  description="" />
+			  <siteMapNode url="12/Circular.aspx" title="Upload Circular"  description="" />
+			  <siteMapNode url="12/UploadTOPPERS.aspx" title="Upload Toppers"  description="" />
+			  <siteMapNode url="12/Downloads.aspx" title="Upload for Downloads Section"  description="" />
+		  </siteMapNode>
+
+		  <siteMapNode url="" title="Testimonials"  description="">
+			  <siteMapNode url="12/StudentTestimonial.aspx" title="Testimonials from Students"  description="" />
+			  <siteMapNode url="12/DownloadResu8me.aspx" title="Testimonials from Staff"  description="" />
+		  </siteMapNode>
+
+		  <siteMapNode url="12/AlumniRegistrationDetails.aspx" title="Alumni Registration Details"  description="" />
+
+	  </siteMapNode>
+
+
+
+  </siteMapNode>
+</siteMap>

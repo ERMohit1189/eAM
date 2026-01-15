@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="login.master.cs" Inherits="login" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>eAM Login</title>
+    <link rel="shortcut icon" href="eAM.ico" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="Smoke/smoke.css" rel="stylesheet" type="text/css" />
+    <script src="Smoke/smoke.js" type="text/javascript"></script>
+    <script src="Smoke/smoke.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="main">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            <asp:HiddenField ID="_repostcheckcode" runat="server" />
+        </asp:ContentPlaceHolder>
+        <div class="loginpannel">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1_ContentPlaceHolderMainBox_" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="LfooTop">
+        </div>
+    </div>
+    <div id="footereff">
+        <asp:Label ID="Label1" runat="server"></asp:Label>
+    </div>
+    </form>
+</body>
+</html>

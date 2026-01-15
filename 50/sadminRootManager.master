@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/50/mainsadmin.master" AutoEventWireup="true" CodeFile="sadminRootManager.master.cs" Inherits="sadminRootManager" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolderMainhead" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="vd_container">
+        <div class="vd_content clearfix">
+            <div class="vd_head-section clearfix">
+                <div class="vd_panel-header">
+                    <ul class="breadcrumb">
+                        <li>
+                            <asp:SiteMapPath ID="SiteMapPath1" runat="server" SiteMapProvider="W5">
+                                 <CurrentNodeStyle Font-Bold="true" />
+                            </asp:SiteMapPath>
+                            <asp:HiddenField ID="_repostcheckcode" runat="server" />
+                        </li>
+                    </ul>
+                    <div class="vd_panel-menu hidden-sm hidden-xs" data-intro="<strong>Expand Control</strong><br/>To expand content page horizontally, vertically, or Both. If you just need one button just simply remove the other button code." data-step="4" data-position="left">
+                        <div class="menu no-bg vd_red" title="Start Layout Tour Guide" data-placement="bottom" onclick="javascript:introJs().setOption('showBullets', false).start();"><span class="menu-icon font-md"><i class="fa fa-question-circle"></i></span></div>
+                        <div data-action="remove-navbar" title="Remove Navigation Bar Toggle" data-placement="bottom" class="remove-navbar-button menu"><i class="fa fa-arrows-h"></i></div>
+                        <div data-action="remove-header" title="Remove Top Menu Toggle" data-placement="bottom" class="remove-header-button menu"><i class="fa fa-arrows-v"></i></div>
+                        <div data-action="fullscreen" title="Remove Navigation Bar and Top Menu Toggle" data-placement="bottom" class="fullscreen-button menu"><i class="glyphicon glyphicon-fullscreen"></i></div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- vd_head-section -->
+
+            <div class="vd_title-section clearfix ">
+                <div class="vd_panel-header pull-left">
+                    <h1>
+                        <asp:Label ID="lblTitel" runat="server"></asp:Label></h1>
+
+                </div>
+                <div class="vd_panel-header-time-box pull-right">
+                    <h1>
+                        <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+                        <span class="animated infinite pulse">: </span>
+                        <asp:Label runat="server" ID="Label2" Text=""></asp:Label>
+                        <span class="animated infinite pulse">: </span>
+                        <asp:Label runat="server" ID="Label3" Text=""></asp:Label>
+                        <asp:Label runat="server" ID="Label4" Text=""></asp:Label>
+                    </h1>
+                    <p>
+                        <asp:Label ID="Label5" runat="server" Text=""></asp:Label>
+                    </p>
+                </div>
+            </div>
+            <!-- vd_title-section -->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderMainBox" runat="server">
+            </asp:ContentPlaceHolder>
+            <!-- .vd_content-section -->
+
+        </div>
+        <!-- .vd_content -->
+    </div>
+
+
+
+</asp:Content>
+

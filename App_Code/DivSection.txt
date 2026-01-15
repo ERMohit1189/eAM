@@ -1,0 +1,87 @@
+<div style="overflow: auto; width: 700px; height: 500px">
+                    <asp:Panel ID="Panel1" runat="server">
+                        
+                        <table width="131" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/pannel_01.jpg" width="580" height="15" /></td>
+  </tr>
+  <tr>
+    <td background="../images/pannel_03.jpg" ><table align="center" style="width: 92%" >
+                            <tr>
+                                <td class="admin" height="25">
+                                    Category :
+                                    </td>
+                                <td height="30">
+                                    <asp:TextBox ID="TextBox7" runat="server" CssClass="black" Width="200px"></asp:TextBox>
+                                    <asp:Button ID="Button5" runat="server" Style="display:none" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="admin" height="25">
+                                    Name of Client :
+                                    </td>
+                                <td height="30">
+                                    <asp:TextBox ID="TextBox8" runat="server" CssClass="black" Width="200px"></asp:TextBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="admin" height="25">
+                                    Contact No. :
+                                </td>
+                                <td height="30">
+                                    <asp:TextBox ID="TextBox9" runat="server" CssClass="black" Width="200px"></asp:TextBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="admin" height="25">
+                                    E-mail :</td>
+                                <td>
+                                    <asp:TextBox ID="TextBox10" runat="server" CssClass="black" Width="200px"></asp:TextBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="admin" >
+                                    Website :<span class="red">
+                                    </span>
+                                </td>
+                                <td >
+                                    <asp:TextBox ID="TextBox11" runat="server" CssClass="black" Width="200px"></asp:TextBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  valign="top" class="admin">
+                                    Comment :</td>
+                                <td >
+                                    <asp:TextBox ID="TextBox12" runat="server" CssClass="admin" Height="50px" 
+                                        TextMode="MultiLine" Width="200px"></asp:TextBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    
+                                </td>
+                                <td >
+                                <asp:Button ID="Button3" runat="server" onclick="Button3_Click" 
+                                        Text="Update" CausesValidation="False" CssClass="black" />&nbsp;
+                                    <asp:Button ID="Button4" runat="server"
+                                        Text="Cancel" CausesValidation="False" CssClass="black" 
+                                        onclick="Button4_Click" />
+                                    <asp:Label ID="lblID" runat="server" Visible="False"></asp:Label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    &nbsp;</td>
+                                <td>
+                                    &nbsp;</td>
+                            </tr>
+                        </table></td>
+  </tr>
+  <tr>
+    <td><img src="images/pannel_05.jpg" width="580" height="11" /></td>
+  </tr>
+</table>
+
+                    </asp:Panel>
+                    
+                </div>

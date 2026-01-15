@@ -1,0 +1,624 @@
+﻿.textbox_default {
+	font-family:'Segoe UI', Sans-Serif;
+	font-size: 12px;
+	background-image:url('../../images/txtbox_bg.jpg');
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	width: 190px;
+	color:#333333;
+	padding-left:2px;
+	cursor:text; 
+	margin-left:5px;
+	margin-bottom:0px; margin-right:0px; margin-top:0px;
+	height:20px;
+}
+.textbox_default:hover {
+	font-family:'Segoe UI', Sans-Serif;
+	font-size: 12px;
+	background-image:url('../../images/txtbox_bg.jpg');
+	background-repeat:repeat-x;
+	border:1px solid #9f9f9f;
+	width: 190px;
+	color:#333333;
+	padding-left:2px;
+	cursor:text; 
+	margin-left:5px;
+	margin-bottom:0px; margin-right:0px; margin-top:0px;
+	height:20px;
+}
+.textbox_multi{
+	font-family:'Segoe UI', Sans-Serif;
+	font-size: 12px;
+	background-image:url('../../images/txtbox_bg.jpg');
+	background-repeat:repeat-x;
+	background-position:top;
+	border:1px solid #d1c7ac;
+	width: 190px;
+	color:#333333;
+	padding-left:2px;
+	cursor:text;
+	height:50px;
+	margin-left:5px;
+	margin-bottom:0px; margin-right:0px; margin-top:0px;
+	vertical-align:top;	
+}
+.textbox_multi:hover{
+	font-family:'Segoe UI', Sans-Serif;
+	font-size: 12px;
+	background-image:url('../../images/txtbox_bg.jpg');
+	background-repeat:repeat-x;
+	background-position:top;
+	border:1px solid #9f9f9f;
+	width: 190px;
+	color:#333333;
+	padding-left:2px;
+	cursor:text;
+	height:50px;
+	margin-left:5px;
+	margin-bottom:0px; margin-right:0px; margin-top:0px;
+	vertical-align:top;		
+}
+.textbox_numeric {
+	font-family:'Segoe UI', Sans-Serif;
+	font-size: 12px;
+	background-image:url('../../images/txtbox_bg.jpg');
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	width: 150px;
+	color:#333333;
+	padding-left:2px;
+	cursor:text; 
+	margin:0px;
+	height:16px;
+	text-align:right;
+}
+.textbox_date{
+	font-family:'Segoe UI', Sans-Serif;
+	font-size: 12px;
+	background-image:url('../../images/txtbox_bg.jpg');
+	background-repeat:repeat-x;
+	background-position:top;
+	border:1px solid #d1c7ac;
+	width: 100px;
+	color:#333333;
+	padding-left:2px;
+	cursor:text;
+	height:16px;	
+}
+.textbox_DefaultSize2 {
+	font-family:'Segoe UI', Sans-Serif;
+	font-size: 12px;
+	background-image:url('../../images/txtbox_bg.jpg');
+	background-repeat:repeat-x;
+	border:1px solid #d1c7ac;
+	width: 300px;
+	color:#333333;
+	padding-left:2px;
+	cursor:text; 
+	margin:0px;
+	height:16px;
+}
+.textbox_multiSize2{
+	font-family:'Segoe UI', Sans-Serif;
+	font-size: 12px;
+	background-image:url('../../images/txtbox_bg.jpg');
+	background-repeat:repeat-x;
+	background-position:top;
+	border:1px solid #d1c7ac;
+	width: 300px;
+	color:#333333;
+	padding-left:2px;
+	cursor:text;
+	height:50px;	
+}
+.radio_default
+{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	width:100px;
+}
+.checkbox_default
+{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	width:100px;
+}
+.lable_default 
+{
+   font-family:'Segoe UI', Sans-Serif;
+	font-size: 13px;
+	color:#333333;
+	width:auto;
+}
+.Linkbutton_default  
+{
+    
+    height:18px; 
+    border:1px #C2C2C2 solid;
+   background-image:url('../../images/linkbtn_a.jpg');
+    
+	background-repeat:repeat-x; 
+	font-family:'Segoe UI', Sans-Serif;
+	font-size: 12px;
+	color:#004CCA; 
+	cursor:pointer;
+	text-decoration:none; padding-left:10px; padding-right:10px; padding-top:1px; padding-bottom:1px;
+	
+}
+
+a:hover.Linkbutton_default  
+{
+    
+    height:18px; 
+    border:1px #3C7FB1 solid;
+    background-image:url('../../images/linkbtn_b.jpg');
+   
+	background-repeat:repeat-x; 
+	font-family:'Segoe UI', Sans-Serif;
+	font-size: 12px;
+	color:#004CCA;
+	cursor:pointer;
+	text-decoration:none;
+	padding-left:10px; padding-right:10px; padding-top:1px; padding-bottom:1px;
+}
+
+.Linkbutton_grid
+{
+    font-family:'Segoe UI', Sans-Serif;
+    font-size: 12px; 
+    /*color:#004CCA; */
+    color:#000000;
+    text-decoration:none;
+    padding-left:10px; 
+    padding-right:10px; 
+    padding-top:1px; 
+    padding-bottom:1px;
+    cursor:pointer;
+    font-weight:normal;
+    
+}
+a:hover.Linkbutton_grid 
+{
+    font-family:'Segoe UI', Sans-Serif;
+    font-size: 12px;
+    
+    /*color:#004CCA; */
+    color:#000000;
+    text-decoration:none;
+    padding-left:10px; 
+    padding-right:10px; 
+    padding-top:1px; 
+    padding-bottom:1px;
+    cursor:pointer;
+    font-weight:normal;
+}
+.Grid_delete 
+{
+    text-decoration:none;
+    /*background-image:url('../../images/delete.gif');*/
+    background-repeat:no-repeat;
+    padding-left:10px; 
+    padding-right:10px;
+    border:0px;
+     
+       
+}
+.Grid_edit 
+{
+    text-decoration:none;
+    /*background-image:url('../../images/edit.gif');*/
+    background-repeat:no-repeat;
+    border:0px;
+    
+     
+       
+}
+
+.button_default  
+{
+    width:70px;
+    height:20px;
+    
+    border:1px #C2C2C2 solid;
+    background-image:url('../../images/linkbtn_a.jpg');
+   
+	background-repeat:repeat-x; 
+	font-family:'Segoe UI', Sans-Serif;
+	font-size: 12px;
+	color:#004CCA; 
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.ddlist  
+{
+    width:192px; padding:0px;
+    background-image:url('../../images/txtbox_bg.jpg');
+    background-repeat:repeat-x; border:1px #d1c7ac solid;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:#333333;
+    margin:0px;
+    margin-left:5px;
+    height:25px;
+}
+.dropdownSize0
+{
+    width:40px; padding:0px;
+    background-image:url('../../images/txtbox_bg.jpg');
+    background-repeat:repeat-x; border:1px #d1c7ac solid;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:#333333;
+    margin:0px;
+    height:23px;
+}
+.dropdownSize1
+{
+    width:50px; padding:0px;
+    background-image:url('../../images/txtbox_bg.jpg');
+    background-repeat:repeat-x; border:1px #d1c7ac solid;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:#333333;
+    margin:0px;
+    height:23px;
+}
+.dropdownSize2
+{
+    width:60px; padding:0px;
+    background-image:url('../../images/txtbox_bg.jpg');
+    background-repeat:repeat-x; border:1px #d1c7ac solid;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:#333333;
+    margin:0px;
+    height:23px;
+}
+
+.grid_alt_details_default{
+	font-family:'Segoe UI', Sans-Serif;
+	font-size:13px;
+	/*background-color: #E9F2FA;*/
+	background-color:#EFF7FC;
+	color:#000000;
+	text-decoration: none;
+}
+.grid_heading_default{
+	font-family:Segoe UI', Semibold;
+	font-size:15px;
+	background-color:#eeeeee;
+
+	/*background-image:url('../../images/grid_top_bg.jpg');*/
+	background-repeat:repeat-x;
+	color:#333333;
+	border-bottom:0px #3C7FB1 solid;
+	border-left:1px solid #DFDFDF; 
+	border-right:1px solid #DFDFDF; 	
+	text-align: center;
+	height:30px;
+	text-decoration:none;
+	font-weight:normal;
+}
+.grid_details_default{  
+	font-family:'Segoe UI', Sans-Serif;
+	font-size:13px;
+	text-decoration: none;
+	color:#000000;
+	background-color:#ffffff;
+	
+}
+.Gridview_Border  
+{
+    
+    border:1px #DFDFDF solid;
+}
+.Gridview_Border td, th, tr 
+{
+    border-top:1px solid #DFDFDF; 
+    border-bottom:1px solid #DFDFDF;
+    border-left:1px solid #DFDFDF;
+    border-right:1px solid #DFDFDF;
+    /*border:1px #DFDFDF solid;*/
+           
+}
+.but_Edit
+{
+	background:transparent url('../../images/edit.png') no-repeat top left;
+    height:16px;
+    width:16px;
+    font-size:1pt;
+    color:#fff;
+	}
+	
+	.but_Delete
+{
+	background:transparent url('../../images/delete.png') no-repeat top left;
+    height:16px;
+    width:16px;
+     font-size:1pt;
+    color:#fff;
+	}
+                 
+.ErrorMSG{
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:13px;
+    color:Red;
+    padding-left:20px;
+    
+     
+}
+.SuccessfullyMSG{
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:13px;
+    color:Green;
+    padding-left:20px;
+    
+}
+.InfromationMSG{
+    
+   font-family:'Segoe UI', Sans-Serif;
+   font-size:13px;
+   color:Black;
+   padding-left:20px;  
+}
+
+
+.ddloginType{
+    width:150px; 
+	height:20px; 
+	border:1px #CCCCCC solid; 
+	background:url(../../images/loginImages/ddBG.gif) repeat-x; 
+	margin-left:10px;
+}
+.textbox_login{
+    width:145px; 
+    height:16px; 
+	border:1px #CCCCCC solid; 
+	background:url(../../images/loginImages/ddBG.gif) repeat-x; 
+	margin-left:10px;  
+}
+.CheckBOX_login{   
+    margin-left:7px;
+} 
+.but_Mark{
+    background:transparent url('../../images/button2.png') no-repeat top left;
+    height:19px;
+    width:120px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:Black;
+     padding-top: 2px;
+}
+a:hover.but_Mark{
+    background:transparent url('../../images/button2_over.png') no-repeat top left;
+    height:19px;
+    width:120px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:#004CCA;
+    padding-top: 2px; 
+}
+
+.but_Submit{
+    background:transparent url('../../images/submit.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:13px;
+    color:Black;
+    padding-top:2px;
+
+}
+a:hover.but_Submit{
+    background:transparent url('../../images/submit1.png') no-repeat top left;
+     height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:13px;
+    color:#004CCA;
+    padding-top:2px; 
+}
+.but_Cancel{
+    background:transparent url('../../images/Cancel.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    padding: 0px;
+}
+a:hover.but_Cancel{
+    background:transparent url('../../images/Cancel1.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    padding: 0px; 
+}
+.but_Reset{
+    background:transparent url('../../images/reset.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:Black;
+     padding-top: 2px;
+    	
+}
+a:hover.but_Reset{     
+    background:transparent url('../../images/reset1.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:#004CCA;
+    padding-top: 2px;
+
+}
+.but_Search{
+    background:transparent url('../../images/search.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:Black;
+    padding-top:1px;
+    cursor:pointer;
+    margin-left:3px;
+}
+.CheckBOX_login{   
+    margin-left:7px;
+}
+
+.but_Show{
+    background:transparent url('../../images/show.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:Black;
+     padding-top: 2px;
+}
+a:hover.but_Show{
+    background:transparent url('../../images/show1.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:#004CCA;
+    padding-top: 2px; 
+}
+.but_promote{
+    background:transparent url('../../images/promote.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:Black;
+     padding-top: 2px;
+}
+a:hover.but_promote{
+    background:transparent url('../../images/promote1.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:#004CCA;
+    padding-top: 2px; 
+
+}
+
+.but_View{
+    background:transparent url('../../images/view.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:Black;
+     padding-top: 1px;
+     margin:0px;
+}
+a:hover.but_View{
+    background:transparent url('../../images/view1.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:#004CCA;
+    padding-top: 1px; 
+    margin:0px;
+}
+.but_Add{
+    background:transparent url('../../images/add.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:Black;
+     padding-top:0px;
+     margin-left:5px; margin-right:0px; margin-bottom:0px; margin-top:0px;
+}
+a:hover.but_Add{
+    background:transparent url('../../images/add1.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:#004CCA;
+    padding-top:0px; 
+    margin-left:5px;margin-right:0px; margin-bottom:0px; margin-top:0px;
+}
+.but_save{
+    background:transparent url('../../images/save.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:Black;
+     padding-top:0px;
+     margin-left:2px; margin-right:0px; margin-bottom:0px; margin-top:0px;
+}
+a:hover.but_save{
+    background:transparent url('../../images/save1.png') no-repeat top left;
+    height:22px;
+    width:65px;
+    text-decoration:none;
+    text-align:center;
+    font-family:'Segoe UI', Sans-Serif;
+    font-size:12px;
+    color:#004CCA;
+    padding-top:0px; 
+    margin-left:2px;margin-right:0px; margin-bottom:0px; margin-top:0px;
+}
+
+.loginin {
+width:247px;
+height:25px;
+border:1px solid #CCC;
+margin:0;
+padding:0;
+}
+.logindrop {
+width:247px;
+height:25px;
+border:1px solid #CCC;
+margin:0;
+padding:0;
+}
+.but_login{
+	background:transparent url('../../images/loginbtn.png') no-repeat top left;
+    height:27px;
+    width:90px;
+}

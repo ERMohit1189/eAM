@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="administrator/dashboard.aspx" title="Dashboard"  description="">
+    
+    <siteMapNode url="administrator/main-icon-selection-list.aspx" title="Set Admin Menu Icons"/>
+    <siteMapNode url="administrator/Brand.aspx" title="Branding"/>
+    <siteMapNode url="administrator/CreateSupperAdmin.aspx" title="User Management"/>
+    <siteMapNode url="administrator/ChangePassword.aspx" title="Change Password"/>
+    <siteMapNode url="administrator/PrerequisiteAdminministrator.aspx" title="Prerequisite"/>
+    <siteMapNode url="administrator/Setting.aspx" title="Setting"/>
+    <siteMapNode url="1/Updatesrno.aspx" title="Change S.R. No."/>
+
+    <siteMapNode url="administrator/menuHeadPermission.aspx" title="Menu Permission"/>
+    <siteMapNode url="administrator/SubscriptionActivation.aspx" title="Subscription Activation"/>
+    <siteMapNode url="administrator/CollegeBranchMaster.aspx" title="Add Branch"/>
+    <siteMapNode title="Database Management"  description="">
+      <siteMapNode url="administrator/database_restore.aspx" title="Database Restore"/>
+      <siteMapNode url="administrator/BackupInitialization.aspx" title="Database Backup Initialization"/>
+      <siteMapNode url="admin/database_backup.aspx" title="Database Backup"/>
+    </siteMapNode>
+  </siteMapNode>
+  
+</siteMap>
