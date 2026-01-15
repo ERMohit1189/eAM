@@ -198,12 +198,13 @@
                         </div>
                         <div class="card-body p-4" runat="server" style="border-radius: 14px;">
                             <asp:HiddenField runat="server" ID="hdnSubscription" />
-                            <div class="scene d-none d-md-block">
-                                <div class="balloon balloon-1" aria-hidden="true"></div>
-                                <div class="balloon balloon-2" aria-hidden="true"></div>
-                                <div class="balloon balloon-3" aria-hidden="true"></div>
-                                <div class="balloon balloon-4" aria-hidden="true"></div>
-                            </div>
+                                <div class="scene d-none d-md-block text-center">
+                                    <img src="img/kids-illustration.svg" alt="Kids illustration" class="img-fluid mb-2" />
+                                    <div class="balloon balloon-1" aria-hidden="true"></div>
+                                    <div class="balloon balloon-2" aria-hidden="true"></div>
+                                    <div class="balloon balloon-3" aria-hidden="true"></div>
+                                    <div class="balloon balloon-4" aria-hidden="true"></div>
+                                </div>
                             <div class="login-img entypo-icon">
                                 <div class="main-logo-center">
                                     <img src="img/logo.png" alt="eAM logo" />

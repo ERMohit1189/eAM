@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="360" viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#FFD86F"/>
+      <stop offset="100%" stop-color="#FFB74D"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="transparent" />
+  <!-- Sun -->
+  <circle cx="480" cy="60" r="34" fill="#FFD166" />
+  <g fill="#FF8A80" transform="translate(80,180)">
+    <!-- Child 1 (simple) -->
+    <circle cx="40" cy="-20" r="16" fill="#FF8A80" />
+    <rect x="32" y="-2" width="16" height="30" rx="6" fill="#FF8A80" />
+    <rect x="20" y="26" width="40" height="8" rx="4" fill="#6EC6FF" />
+  </g>
+  <g transform="translate(180,200)">
+    <!-- Child 2 -->
+    <circle cx="40" cy="-20" r="16" fill="#9575CD" />
+    <rect x="32" y="-2" width="16" height="30" rx="6" fill="#9575CD" />
+    <rect x="20" y="26" width="40" height="8" rx="4" fill="#80D8FF" />
+  </g>
+  <!-- Balloons -->
+  <g transform="translate(280,80)">
+    <ellipse cx="0" cy="0" rx="18" ry="22" fill="#FF6B6B" />
+    <line x1="0" y1="22" x2="0" y2="62" stroke="#000" stroke-opacity="0.06" />
+  </g>
+  <g transform="translate(340,60)">
+    <ellipse cx="0" cy="0" rx="20" ry="26" fill="#00BCD4" />
+    <line x1="0" y1="26" x2="0" y2="66" stroke="#000" stroke-opacity="0.06" />
+  </g>
+  <!-- Ground / cloud smile -->
+  <g transform="translate(60,120)" opacity="0.9">
+    <ellipse cx="140" cy="140" rx="120" ry="40" fill="#FFF" />
+  </g>
+</svg>
